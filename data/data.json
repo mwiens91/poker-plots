@@ -9,8 +9,8 @@
         165
       ],
       "avatar": "https://mwiens91.github.io/poker-plots/data/avatars/matt.webp",
-      "gameCount": 55,
-      "cumSum": 574.83,
+      "gameCount": 56,
+      "cumSum": 779.18,
       "matchupData": [
         {
           "player": "Matt",
@@ -126,6 +126,17 @@
           "player": "Matt",
           "players": [
             "Matt",
+            "David",
+            "Juno",
+            "Zen"
+          ],
+          "gameCount": 1,
+          "cumSum": 204.35
+        },
+        {
+          "player": "Matt",
+          "players": [
+            "Matt",
             "Aidan",
             "Juno",
             "Parker",
@@ -221,13 +232,13 @@
         }
       ],
       "stats": {
-        "total-money-won": 916.89,
+        "total-money-won": 1121.24,
         "total-money-lost": 342.06,
         "largest-winning-streak": {
-          "num-games": 4,
-          "total": 183.07,
-          "start-game-id": 38,
-          "end-game-id": 41
+          "num-games": 1,
+          "total": 204.35,
+          "start-game-id": 73,
+          "end-game-id": 73
         },
         "largest-losing-streak": {
           "num-games": 4,
@@ -236,8 +247,8 @@
           "end-game-id": 27
         },
         "most-won-in-single-game": {
-          "total": 139.59,
-          "game-id": 6
+          "total": 204.35,
+          "game-id": 73
         },
         "most-lost-in-single-game": {
           "total": -75.87,
@@ -739,6 +750,15 @@
           "buyout": 81.86,
           "delta": -6.42,
           "cumSum": 574.83
+        },
+        {
+          "id": 73,
+          "date": "2022-06-24",
+          "player": "Matt",
+          "buyin": 107.69,
+          "buyout": 312.04,
+          "delta": 204.35,
+          "cumSum": 779.18
         }
       ]
     },
@@ -751,8 +771,8 @@
         60
       ],
       "avatar": "https://mwiens91.github.io/poker-plots/data/avatars/zen.webp",
-      "gameCount": 69,
-      "cumSum": 167.26,
+      "gameCount": 70,
+      "cumSum": 159.95,
       "matchupData": [
         {
           "player": "Zen",
@@ -1022,6 +1042,17 @@
           "player": "Zen",
           "players": [
             "Zen",
+            "David",
+            "Juno",
+            "Matt"
+          ],
+          "gameCount": 1,
+          "cumSum": -7.31
+        },
+        {
+          "player": "Zen",
+          "players": [
+            "Zen",
             "Aidan",
             "Bei",
             "Juno"
@@ -1054,7 +1085,7 @@
       ],
       "stats": {
         "total-money-won": 697.32,
-        "total-money-lost": 530.06,
+        "total-money-lost": 537.37,
         "largest-winning-streak": {
           "num-games": 5,
           "total": 171.82,
@@ -1697,6 +1728,15 @@
           "buyout": 14.83,
           "delta": 4.83,
           "cumSum": 167.26
+        },
+        {
+          "id": 73,
+          "date": "2022-06-24",
+          "player": "Zen",
+          "buyin": 75.0,
+          "buyout": 67.69,
+          "delta": -7.31,
+          "cumSum": 159.95
         }
       ]
     },
@@ -2917,323 +2957,6 @@
       ]
     },
     {
-      "name": "David",
-      "colourHex": "#6991ce",
-      "colourRgb": [
-        105,
-        145,
-        206
-      ],
-      "avatar": "https://mwiens91.github.io/poker-plots/data/avatars/david.webp",
-      "gameCount": 16,
-      "cumSum": -85.3,
-      "matchupData": [
-        {
-          "player": "David",
-          "players": [
-            "David",
-            "Aidan",
-            "Bei",
-            "Juno",
-            "Matt",
-            "Zen"
-          ],
-          "gameCount": 3,
-          "cumSum": -36.69
-        },
-        {
-          "player": "David",
-          "players": [
-            "David",
-            "Aidan",
-            "Juno",
-            "Matt",
-            "Zen"
-          ],
-          "gameCount": 3,
-          "cumSum": 2.48
-        },
-        {
-          "player": "David",
-          "players": [
-            "David",
-            "Aidan",
-            "Alex",
-            "Juno",
-            "Matt",
-            "Zen"
-          ],
-          "gameCount": 2,
-          "cumSum": -35.65
-        },
-        {
-          "player": "David",
-          "players": [
-            "David",
-            "Aidan",
-            "Alex",
-            "Jayden",
-            "Juno",
-            "Zen"
-          ],
-          "gameCount": 1,
-          "cumSum": 95.27
-        },
-        {
-          "player": "David",
-          "players": [
-            "David",
-            "Aidan",
-            "Alex",
-            "Juno",
-            "Russell",
-            "Zen"
-          ],
-          "gameCount": 1,
-          "cumSum": -80.0
-        },
-        {
-          "player": "David",
-          "players": [
-            "David",
-            "Aidan",
-            "Juno",
-            "Zen"
-          ],
-          "gameCount": 1,
-          "cumSum": -50.0
-        },
-        {
-          "player": "David",
-          "players": [
-            "David",
-            "Jayden",
-            "Juno",
-            "Zen"
-          ],
-          "gameCount": 1,
-          "cumSum": 31.04
-        },
-        {
-          "player": "David",
-          "players": [
-            "David",
-            "Aidan",
-            "Josh",
-            "Juno",
-            "Matt",
-            "Zen"
-          ],
-          "gameCount": 1,
-          "cumSum": -12.0
-        },
-        {
-          "player": "David",
-          "players": [
-            "David",
-            "Juno",
-            "Zen"
-          ],
-          "gameCount": 1,
-          "cumSum": -10.0
-        },
-        {
-          "player": "David",
-          "players": [
-            "David",
-            "Aidan",
-            "Bei",
-            "Juno",
-            "Matt",
-            "Russell",
-            "Zen"
-          ],
-          "gameCount": 1,
-          "cumSum": 9.08
-        },
-        {
-          "player": "David",
-          "players": [
-            "David",
-            "Matt",
-            "Zen"
-          ],
-          "gameCount": 1,
-          "cumSum": 1.17
-        }
-      ],
-      "stats": {
-        "total-money-won": 190.71,
-        "total-money-lost": 276.01,
-        "largest-winning-streak": {
-          "num-games": 1,
-          "total": 95.27,
-          "start-game-id": 2,
-          "end-game-id": 2
-        },
-        "largest-losing-streak": {
-          "num-games": 3,
-          "total": -131.0,
-          "start-game-id": 3,
-          "end-game-id": 6
-        },
-        "most-won-in-single-game": {
-          "total": 95.27,
-          "game-id": 2
-        },
-        "most-lost-in-single-game": {
-          "total": -80.0,
-          "game-id": 3
-        }
-      },
-      "data": [
-        {
-          "id": 2,
-          "date": "2021-10-01",
-          "player": "David",
-          "buyin": 10.0,
-          "buyout": 105.27,
-          "delta": 95.27,
-          "cumSum": 95.27
-        },
-        {
-          "id": 3,
-          "date": "2021-11-05",
-          "player": "David",
-          "buyin": 80.0,
-          "buyout": 0.0,
-          "delta": -80.0,
-          "cumSum": 15.27
-        },
-        {
-          "id": 4,
-          "date": "2021-12-21",
-          "player": "David",
-          "buyin": 10.0,
-          "buyout": 0.0,
-          "delta": -10.0,
-          "cumSum": 5.27
-        },
-        {
-          "id": 6,
-          "date": "2021-12-24",
-          "player": "David",
-          "buyin": 41.0,
-          "buyout": 0.0,
-          "delta": -41.0,
-          "cumSum": -35.73
-        },
-        {
-          "id": 7,
-          "date": "2021-12-27",
-          "player": "David",
-          "buyin": 45.0,
-          "buyout": 50.35,
-          "delta": 5.35,
-          "cumSum": -30.38
-        },
-        {
-          "id": 8,
-          "date": "2021-12-29",
-          "player": "David",
-          "buyin": 50.0,
-          "buyout": 0.0,
-          "delta": -50.0,
-          "cumSum": -80.38
-        },
-        {
-          "id": 13,
-          "date": "2022-01-05",
-          "player": "David",
-          "buyin": 20.0,
-          "buyout": 51.04,
-          "delta": 31.04,
-          "cumSum": -49.34
-        },
-        {
-          "id": 19,
-          "date": "2022-01-21",
-          "player": "David",
-          "buyin": 10.0,
-          "buyout": 0.0,
-          "delta": -10.0,
-          "cumSum": -59.34
-        },
-        {
-          "id": 41,
-          "date": "2022-03-25",
-          "player": "David",
-          "buyin": 40.0,
-          "buyout": 49.08,
-          "delta": 9.08,
-          "cumSum": -50.26
-        },
-        {
-          "id": 49,
-          "date": "2022-04-16",
-          "player": "David",
-          "buyin": 12.0,
-          "buyout": 0.0,
-          "delta": -12.0,
-          "cumSum": -62.26
-        },
-        {
-          "id": 58,
-          "date": "2022-05-03",
-          "player": "David",
-          "buyin": 40.0,
-          "buyout": 41.17,
-          "delta": 1.17,
-          "cumSum": -61.09
-        },
-        {
-          "id": 59,
-          "date": "2022-05-05",
-          "player": "David",
-          "buyin": 60.0,
-          "buyout": 75.49,
-          "delta": 15.49,
-          "cumSum": -45.6
-        },
-        {
-          "id": 60,
-          "date": "2022-05-06",
-          "player": "David",
-          "buyin": 20.0,
-          "buyout": 16.99,
-          "delta": -3.01,
-          "cumSum": -48.61
-        },
-        {
-          "id": 65,
-          "date": "2022-05-19",
-          "player": "David",
-          "buyin": 40.0,
-          "buyout": 0.0,
-          "delta": -40.0,
-          "cumSum": -88.61
-        },
-        {
-          "id": 69,
-          "date": "2022-06-04",
-          "player": "David",
-          "buyin": 30.0,
-          "buyout": 0.0,
-          "delta": -30.0,
-          "cumSum": -118.61
-        },
-        {
-          "id": 71,
-          "date": "2022-06-17",
-          "player": "David",
-          "buyin": 60.0,
-          "buyout": 93.31,
-          "delta": 33.31,
-          "cumSum": -85.3
-        }
-      ]
-    },
-    {
       "name": "Bei",
       "colourHex": "#a68346",
       "colourRgb": [
@@ -3452,6 +3175,343 @@
       ]
     },
     {
+      "name": "David",
+      "colourHex": "#6991ce",
+      "colourRgb": [
+        105,
+        145,
+        206
+      ],
+      "avatar": "https://mwiens91.github.io/poker-plots/data/avatars/david.webp",
+      "gameCount": 17,
+      "cumSum": -185.3,
+      "matchupData": [
+        {
+          "player": "David",
+          "players": [
+            "David",
+            "Aidan",
+            "Bei",
+            "Juno",
+            "Matt",
+            "Zen"
+          ],
+          "gameCount": 3,
+          "cumSum": -36.69
+        },
+        {
+          "player": "David",
+          "players": [
+            "David",
+            "Aidan",
+            "Juno",
+            "Matt",
+            "Zen"
+          ],
+          "gameCount": 3,
+          "cumSum": 2.48
+        },
+        {
+          "player": "David",
+          "players": [
+            "David",
+            "Aidan",
+            "Alex",
+            "Juno",
+            "Matt",
+            "Zen"
+          ],
+          "gameCount": 2,
+          "cumSum": -35.65
+        },
+        {
+          "player": "David",
+          "players": [
+            "David",
+            "Juno",
+            "Matt",
+            "Zen"
+          ],
+          "gameCount": 1,
+          "cumSum": -100.0
+        },
+        {
+          "player": "David",
+          "players": [
+            "David",
+            "Aidan",
+            "Alex",
+            "Jayden",
+            "Juno",
+            "Zen"
+          ],
+          "gameCount": 1,
+          "cumSum": 95.27
+        },
+        {
+          "player": "David",
+          "players": [
+            "David",
+            "Aidan",
+            "Alex",
+            "Juno",
+            "Russell",
+            "Zen"
+          ],
+          "gameCount": 1,
+          "cumSum": -80.0
+        },
+        {
+          "player": "David",
+          "players": [
+            "David",
+            "Aidan",
+            "Juno",
+            "Zen"
+          ],
+          "gameCount": 1,
+          "cumSum": -50.0
+        },
+        {
+          "player": "David",
+          "players": [
+            "David",
+            "Jayden",
+            "Juno",
+            "Zen"
+          ],
+          "gameCount": 1,
+          "cumSum": 31.04
+        },
+        {
+          "player": "David",
+          "players": [
+            "David",
+            "Aidan",
+            "Josh",
+            "Juno",
+            "Matt",
+            "Zen"
+          ],
+          "gameCount": 1,
+          "cumSum": -12.0
+        },
+        {
+          "player": "David",
+          "players": [
+            "David",
+            "Juno",
+            "Zen"
+          ],
+          "gameCount": 1,
+          "cumSum": -10.0
+        },
+        {
+          "player": "David",
+          "players": [
+            "David",
+            "Aidan",
+            "Bei",
+            "Juno",
+            "Matt",
+            "Russell",
+            "Zen"
+          ],
+          "gameCount": 1,
+          "cumSum": 9.08
+        },
+        {
+          "player": "David",
+          "players": [
+            "David",
+            "Matt",
+            "Zen"
+          ],
+          "gameCount": 1,
+          "cumSum": 1.17
+        }
+      ],
+      "stats": {
+        "total-money-won": 190.71,
+        "total-money-lost": 376.01,
+        "largest-winning-streak": {
+          "num-games": 1,
+          "total": 95.27,
+          "start-game-id": 2,
+          "end-game-id": 2
+        },
+        "largest-losing-streak": {
+          "num-games": 3,
+          "total": -131.0,
+          "start-game-id": 3,
+          "end-game-id": 6
+        },
+        "most-won-in-single-game": {
+          "total": 95.27,
+          "game-id": 2
+        },
+        "most-lost-in-single-game": {
+          "total": -100.0,
+          "game-id": 73
+        }
+      },
+      "data": [
+        {
+          "id": 2,
+          "date": "2021-10-01",
+          "player": "David",
+          "buyin": 10.0,
+          "buyout": 105.27,
+          "delta": 95.27,
+          "cumSum": 95.27
+        },
+        {
+          "id": 3,
+          "date": "2021-11-05",
+          "player": "David",
+          "buyin": 80.0,
+          "buyout": 0.0,
+          "delta": -80.0,
+          "cumSum": 15.27
+        },
+        {
+          "id": 4,
+          "date": "2021-12-21",
+          "player": "David",
+          "buyin": 10.0,
+          "buyout": 0.0,
+          "delta": -10.0,
+          "cumSum": 5.27
+        },
+        {
+          "id": 6,
+          "date": "2021-12-24",
+          "player": "David",
+          "buyin": 41.0,
+          "buyout": 0.0,
+          "delta": -41.0,
+          "cumSum": -35.73
+        },
+        {
+          "id": 7,
+          "date": "2021-12-27",
+          "player": "David",
+          "buyin": 45.0,
+          "buyout": 50.35,
+          "delta": 5.35,
+          "cumSum": -30.38
+        },
+        {
+          "id": 8,
+          "date": "2021-12-29",
+          "player": "David",
+          "buyin": 50.0,
+          "buyout": 0.0,
+          "delta": -50.0,
+          "cumSum": -80.38
+        },
+        {
+          "id": 13,
+          "date": "2022-01-05",
+          "player": "David",
+          "buyin": 20.0,
+          "buyout": 51.04,
+          "delta": 31.04,
+          "cumSum": -49.34
+        },
+        {
+          "id": 19,
+          "date": "2022-01-21",
+          "player": "David",
+          "buyin": 10.0,
+          "buyout": 0.0,
+          "delta": -10.0,
+          "cumSum": -59.34
+        },
+        {
+          "id": 41,
+          "date": "2022-03-25",
+          "player": "David",
+          "buyin": 40.0,
+          "buyout": 49.08,
+          "delta": 9.08,
+          "cumSum": -50.26
+        },
+        {
+          "id": 49,
+          "date": "2022-04-16",
+          "player": "David",
+          "buyin": 12.0,
+          "buyout": 0.0,
+          "delta": -12.0,
+          "cumSum": -62.26
+        },
+        {
+          "id": 58,
+          "date": "2022-05-03",
+          "player": "David",
+          "buyin": 40.0,
+          "buyout": 41.17,
+          "delta": 1.17,
+          "cumSum": -61.09
+        },
+        {
+          "id": 59,
+          "date": "2022-05-05",
+          "player": "David",
+          "buyin": 60.0,
+          "buyout": 75.49,
+          "delta": 15.49,
+          "cumSum": -45.6
+        },
+        {
+          "id": 60,
+          "date": "2022-05-06",
+          "player": "David",
+          "buyin": 20.0,
+          "buyout": 16.99,
+          "delta": -3.01,
+          "cumSum": -48.61
+        },
+        {
+          "id": 65,
+          "date": "2022-05-19",
+          "player": "David",
+          "buyin": 40.0,
+          "buyout": 0.0,
+          "delta": -40.0,
+          "cumSum": -88.61
+        },
+        {
+          "id": 69,
+          "date": "2022-06-04",
+          "player": "David",
+          "buyin": 30.0,
+          "buyout": 0.0,
+          "delta": -30.0,
+          "cumSum": -118.61
+        },
+        {
+          "id": 71,
+          "date": "2022-06-17",
+          "player": "David",
+          "buyin": 60.0,
+          "buyout": 93.31,
+          "delta": 33.31,
+          "cumSum": -85.3
+        },
+        {
+          "id": 73,
+          "date": "2022-06-24",
+          "player": "David",
+          "buyin": 100.0,
+          "buyout": 0.0,
+          "delta": -100.0,
+          "cumSum": -185.3
+        }
+      ]
+    },
+    {
       "name": "Juno",
       "colourHex": "#cc603e",
       "colourRgb": [
@@ -3460,8 +3520,8 @@
         62
       ],
       "avatar": "https://mwiens91.github.io/poker-plots/data/avatars/juno.webp",
-      "gameCount": 64,
-      "cumSum": -369.05,
+      "gameCount": 65,
+      "cumSum": -466.09,
       "matchupData": [
         {
           "player": "Juno",
@@ -3605,6 +3665,17 @@
           "player": "Juno",
           "players": [
             "Juno",
+            "David",
+            "Matt",
+            "Zen"
+          ],
+          "gameCount": 1,
+          "cumSum": -97.04
+        },
+        {
+          "player": "Juno",
+          "players": [
+            "Juno",
             "Jayden",
             "Matt",
             "Zen"
@@ -3732,7 +3803,7 @@
       ],
       "stats": {
         "total-money-won": 662.17,
-        "total-money-lost": 1031.22,
+        "total-money-lost": 1128.26,
         "largest-winning-streak": {
           "num-games": 5,
           "total": 133.59,
@@ -4330,11 +4401,50 @@
           "buyout": 14.4,
           "delta": 4.4,
           "cumSum": -369.05
+        },
+        {
+          "id": 73,
+          "date": "2022-06-24",
+          "player": "Juno",
+          "buyin": 97.04,
+          "buyout": 0.0,
+          "delta": -97.04,
+          "cumSum": -466.09
         }
       ]
     }
   ],
   "games": [
+    {
+      "id": 73,
+      "date": "2022-06-24",
+      "data": [
+        {
+          "player": "Matt",
+          "buyin": 107.69,
+          "buyout": 312.04,
+          "delta": 204.35
+        },
+        {
+          "player": "Zen",
+          "buyin": 75.0,
+          "buyout": 67.69,
+          "delta": -7.31
+        },
+        {
+          "player": "Juno",
+          "buyin": 97.04,
+          "buyout": 0.0,
+          "delta": -97.04
+        },
+        {
+          "player": "David",
+          "buyin": 100.0,
+          "buyout": 0.0,
+          "delta": -100.0
+        }
+      ]
+    },
     {
       "id": 72,
       "date": "2022-06-21",
