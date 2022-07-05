@@ -9,8 +9,8 @@
         165
       ],
       "avatar": "https://mwiens91.github.io/poker-plots/data/avatars/matt.webp",
-      "gameCount": 59,
-      "cumSum": 825.86,
+      "gameCount": 60,
+      "cumSum": 830.02,
       "matchupData": [
         {
           "player": "Matt",
@@ -19,8 +19,8 @@
             "Juno",
             "Zen"
           ],
-          "gameCount": 13,
-          "cumSum": 83.38
+          "gameCount": 14,
+          "cumSum": 87.54
         },
         {
           "player": "Matt",
@@ -243,13 +243,13 @@
         }
       ],
       "stats": {
-        "total-money-won": 1167.92,
+        "total-money-won": 1172.08,
         "total-money-lost": 342.06,
         "largest-winning-streak": {
-          "num-games": 4,
-          "total": 251.03,
+          "num-games": 5,
+          "total": 255.19,
           "start-game-id": 73,
-          "end-game-id": 77
+          "end-game-id": 78
         },
         "largest-losing-streak": {
           "num-games": 4,
@@ -797,6 +797,15 @@
           "buyout": 66.9,
           "delta": 0.05,
           "cumSum": 825.86
+        },
+        {
+          "id": 78,
+          "date": "2022-07-04",
+          "player": "Matt",
+          "buyin": 20.0,
+          "buyout": 24.16,
+          "delta": 4.16,
+          "cumSum": 830.02
         }
       ]
     },
@@ -809,8 +818,8 @@
         60
       ],
       "avatar": "https://mwiens91.github.io/poker-plots/data/avatars/zen.webp",
-      "gameCount": 74,
-      "cumSum": 169.65,
+      "gameCount": 75,
+      "cumSum": 157.54,
       "matchupData": [
         {
           "player": "Zen",
@@ -819,8 +828,8 @@
             "Juno",
             "Matt"
           ],
-          "gameCount": 13,
-          "cumSum": 31.39
+          "gameCount": 14,
+          "cumSum": 19.28
         },
         {
           "player": "Zen",
@@ -1134,7 +1143,7 @@
       ],
       "stats": {
         "total-money-won": 732.36,
-        "total-money-lost": 562.71,
+        "total-money-lost": 574.82,
         "largest-winning-streak": {
           "num-games": 5,
           "total": 171.82,
@@ -1822,6 +1831,15 @@
           "buyout": 33.29,
           "delta": 18.29,
           "cumSum": 169.65
+        },
+        {
+          "id": 78,
+          "date": "2022-07-04",
+          "player": "Zen",
+          "buyin": 20.0,
+          "buyout": 7.89,
+          "delta": -12.11,
+          "cumSum": 157.54
         }
       ]
     },
@@ -3672,8 +3690,8 @@
         62
       ],
       "avatar": "https://mwiens91.github.io/poker-plots/data/avatars/juno.webp",
-      "gameCount": 68,
-      "cumSum": -495.71,
+      "gameCount": 69,
+      "cumSum": -487.76,
       "matchupData": [
         {
           "player": "Juno",
@@ -3682,8 +3700,8 @@
             "Matt",
             "Zen"
           ],
-          "gameCount": 13,
-          "cumSum": -114.77
+          "gameCount": 14,
+          "cumSum": -106.82
         },
         {
           "player": "Juno",
@@ -3954,7 +3972,7 @@
         }
       ],
       "stats": {
-        "total-money-won": 689.99,
+        "total-money-won": 697.94,
         "total-money-lost": 1185.7,
         "largest-winning-streak": {
           "num-games": 5,
@@ -4589,11 +4607,44 @@
           "buyout": 87.82,
           "delta": 27.82,
           "cumSum": -495.71
+        },
+        {
+          "id": 78,
+          "date": "2022-07-04",
+          "player": "Juno",
+          "buyin": 40.0,
+          "buyout": 47.95,
+          "delta": 7.95,
+          "cumSum": -487.76
         }
       ]
     }
   ],
   "games": [
+    {
+      "id": 78,
+      "date": "2022-07-04",
+      "data": [
+        {
+          "player": "Juno",
+          "buyin": 40.0,
+          "buyout": 47.95,
+          "delta": 7.95
+        },
+        {
+          "player": "Matt",
+          "buyin": 20.0,
+          "buyout": 24.16,
+          "delta": 4.16
+        },
+        {
+          "player": "Zen",
+          "buyin": 20.0,
+          "buyout": 7.89,
+          "delta": -12.11
+        }
+      ]
+    },
     {
       "id": 77,
       "date": "2022-07-02",
