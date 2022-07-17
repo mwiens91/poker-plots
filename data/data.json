@@ -2,15 +2,15 @@
   "players": [
     {
       "name": "Matt",
-      "colourHex": "#c77aa5",
+      "colourHex": "#c1576a",
       "colourRgb": [
-        199,
-        122,
-        165
+        193,
+        87,
+        106
       ],
       "avatar": "https://mwiens91.github.io/poker-plots/data/avatars/matt.webp",
-      "gameCount": 62,
-      "cumSum": 865.17,
+      "gameCount": 63,
+      "cumSum": 829.11,
       "matchupData": [
         {
           "player": "Matt",
@@ -175,6 +175,18 @@
           "players": [
             "Matt",
             "Aidan",
+            "David",
+            "James",
+            "Zen"
+          ],
+          "gameCount": 1,
+          "cumSum": -36.06
+        },
+        {
+          "player": "Matt",
+          "players": [
+            "Matt",
+            "Aidan",
             "Alex",
             "Juno",
             "Zen"
@@ -244,7 +256,7 @@
       ],
       "stats": {
         "total-money-won": 1207.23,
-        "total-money-lost": 342.06,
+        "total-money-lost": 378.12,
         "largest-winning-streak": {
           "num-games": 7,
           "total": 290.34,
@@ -824,20 +836,29 @@
           "buyout": 40.95,
           "delta": 20.95,
           "cumSum": 865.17
+        },
+        {
+          "id": 81,
+          "date": "2022-07-17",
+          "player": "Matt",
+          "buyin": 79.82,
+          "buyout": 43.76,
+          "delta": -36.06,
+          "cumSum": 829.11
         }
       ]
     },
     {
       "name": "Zen",
-      "colourHex": "#d5a73c",
+      "colourHex": "#69b851",
       "colourRgb": [
-        213,
-        167,
-        60
+        105,
+        184,
+        81
       ],
       "avatar": "https://mwiens91.github.io/poker-plots/data/avatars/zen.webp",
-      "gameCount": 77,
-      "cumSum": 155.19,
+      "gameCount": 78,
+      "cumSum": 137.88,
       "matchupData": [
         {
           "player": "Zen",
@@ -1048,6 +1069,18 @@
           "players": [
             "Zen",
             "Aidan",
+            "David",
+            "James",
+            "Matt"
+          ],
+          "gameCount": 1,
+          "cumSum": -17.31
+        },
+        {
+          "player": "Zen",
+          "players": [
+            "Zen",
+            "Aidan",
             "Alex",
             "Juno"
           ],
@@ -1161,7 +1194,7 @@
       ],
       "stats": {
         "total-money-won": 734.61,
-        "total-money-lost": 579.42,
+        "total-money-lost": 596.73,
         "largest-winning-streak": {
           "num-games": 5,
           "total": 171.82,
@@ -1876,16 +1909,78 @@
           "buyout": 12.25,
           "delta": 2.25,
           "cumSum": 155.19
+        },
+        {
+          "id": 81,
+          "date": "2022-07-17",
+          "player": "Zen",
+          "buyin": 54.0,
+          "buyout": 36.69,
+          "delta": -17.31,
+          "cumSum": 137.88
+        }
+      ]
+    },
+    {
+      "name": "James",
+      "colourHex": "#9e56c3",
+      "colourRgb": [
+        158,
+        86,
+        195
+      ],
+      "avatar": "https://mwiens91.github.io/poker-plots/data/avatars/james.webp",
+      "gameCount": 1,
+      "cumSum": 43.67,
+      "matchupData": [
+        {
+          "player": "James",
+          "players": [
+            "James",
+            "Aidan",
+            "David",
+            "Matt",
+            "Zen"
+          ],
+          "gameCount": 1,
+          "cumSum": 43.67
+        }
+      ],
+      "stats": {
+        "total-money-won": 43.67,
+        "total-money-lost": 0,
+        "largest-winning-streak": {
+          "num-games": 1,
+          "total": 43.67,
+          "start-game-id": 81,
+          "end-game-id": 81
+        },
+        "largest-losing-streak": null,
+        "most-won-in-single-game": {
+          "total": 43.67,
+          "game-id": 81
+        },
+        "most-lost-in-single-game": null
+      },
+      "data": [
+        {
+          "id": 81,
+          "date": "2022-07-17",
+          "player": "James",
+          "buyin": 20.0,
+          "buyout": 63.67,
+          "delta": 43.67,
+          "cumSum": 43.67
         }
       ]
     },
     {
       "name": "Russell",
-      "colourHex": "#7a64ca",
+      "colourHex": "#c94394",
       "colourRgb": [
-        122,
-        100,
-        202
+        201,
+        67,
+        148
       ],
       "avatar": "https://mwiens91.github.io/poker-plots/data/avatars/russell.webp",
       "gameCount": 3,
@@ -1988,11 +2083,11 @@
     },
     {
       "name": "Jayden",
-      "colourHex": "#be4daa",
+      "colourHex": "#c0b44a",
       "colourRgb": [
-        190,
-        77,
-        170
+        192,
+        180,
+        74
       ],
       "avatar": "https://mwiens91.github.io/poker-plots/data/avatars/jayden.webp",
       "gameCount": 4,
@@ -2112,11 +2207,11 @@
     },
     {
       "name": "Josh",
-      "colourHex": "#537c37",
+      "colourHex": "#656cc4",
       "colourRgb": [
-        83,
-        124,
-        55
+        101,
+        108,
+        196
       ],
       "avatar": "https://mwiens91.github.io/poker-plots/data/avatars/josh.webp",
       "gameCount": 1,
@@ -2166,11 +2261,11 @@
     },
     {
       "name": "Parker",
-      "colourHex": "#5abb94",
+      "colourHex": "#607834",
       "colourRgb": [
-        90,
-        187,
-        148
+        96,
+        120,
+        52
       ],
       "avatar": "https://mwiens91.github.io/poker-plots/data/avatars/parker.webp",
       "gameCount": 2,
@@ -2240,11 +2335,11 @@
     },
     {
       "name": "Alex",
-      "colourHex": "#c84461",
+      "colourHex": "#cb87c1",
       "colourRgb": [
-        200,
-        68,
-        97
+        203,
+        135,
+        193
       ],
       "avatar": "https://mwiens91.github.io/poker-plots/data/avatars/alex.webp",
       "gameCount": 7,
@@ -2418,15 +2513,15 @@
     },
     {
       "name": "Aidan",
-      "colourHex": "#7fba46",
+      "colourHex": "#51b699",
       "colourRgb": [
-        127,
-        186,
-        70
+        81,
+        182,
+        153
       ],
       "avatar": "https://mwiens91.github.io/poker-plots/data/avatars/aidan.webp",
-      "gameCount": 52,
-      "cumSum": -78.07,
+      "gameCount": 53,
+      "cumSum": -71.51,
       "matchupData": [
         {
           "player": "Aidan",
@@ -2583,6 +2678,18 @@
           "player": "Aidan",
           "players": [
             "Aidan",
+            "David",
+            "James",
+            "Matt",
+            "Zen"
+          ],
+          "gameCount": 1,
+          "cumSum": 6.56
+        },
+        {
+          "player": "Aidan",
+          "players": [
+            "Aidan",
             "Alex",
             "Juno",
             "Zen"
@@ -2657,7 +2764,7 @@
         }
       ],
       "stats": {
-        "total-money-won": 446.31,
+        "total-money-won": 452.87,
         "total-money-lost": 524.38,
         "largest-winning-streak": {
           "num-games": 4,
@@ -3148,16 +3255,25 @@
           "buyout": 0.0,
           "delta": -3.0,
           "cumSum": -78.07
+        },
+        {
+          "id": 81,
+          "date": "2022-07-17",
+          "player": "Aidan",
+          "buyin": 40.0,
+          "buyout": 46.56,
+          "delta": 6.56,
+          "cumSum": -71.51
         }
       ]
     },
     {
       "name": "Bei",
-      "colourHex": "#a68346",
+      "colourHex": "#c08242",
       "colourRgb": [
-        166,
-        131,
-        70
+        192,
+        130,
+        66
       ],
       "avatar": "https://mwiens91.github.io/poker-plots/data/avatars/bei.webp",
       "gameCount": 15,
@@ -3389,15 +3505,15 @@
     },
     {
       "name": "David",
-      "colourHex": "#6991ce",
+      "colourHex": "#cc5136",
       "colourRgb": [
-        105,
-        145,
-        206
+        204,
+        81,
+        54
       ],
       "avatar": "https://mwiens91.github.io/poker-plots/data/avatars/david.webp",
-      "gameCount": 19,
-      "cumSum": -179.77,
+      "gameCount": 20,
+      "cumSum": -176.63,
       "matchupData": [
         {
           "player": "David",
@@ -3548,6 +3664,18 @@
           "player": "David",
           "players": [
             "David",
+            "Aidan",
+            "James",
+            "Matt",
+            "Zen"
+          ],
+          "gameCount": 1,
+          "cumSum": 3.14
+        },
+        {
+          "player": "David",
+          "players": [
+            "David",
             "Matt",
             "Zen"
           ],
@@ -3556,7 +3684,7 @@
         }
       ],
       "stats": {
-        "total-money-won": 206.24,
+        "total-money-won": 209.38,
         "total-money-lost": 386.01,
         "largest-winning-streak": {
           "num-games": 1,
@@ -3750,16 +3878,25 @@
           "buyout": 25.23,
           "delta": 15.53,
           "cumSum": -179.77
+        },
+        {
+          "id": 81,
+          "date": "2022-07-17",
+          "player": "David",
+          "buyin": 40.0,
+          "buyout": 43.14,
+          "delta": 3.14,
+          "cumSum": -176.63
         }
       ]
     },
     {
       "name": "Juno",
-      "colourHex": "#cc603e",
+      "colourHex": "#619ad2",
       "colourRgb": [
-        204,
-        96,
-        62
+        97,
+        154,
+        210
       ],
       "avatar": "https://mwiens91.github.io/poker-plots/data/avatars/juno.webp",
       "gameCount": 70,
@@ -4702,6 +4839,42 @@
     }
   ],
   "games": [
+    {
+      "id": 81,
+      "date": "2022-07-17",
+      "data": [
+        {
+          "player": "James",
+          "buyin": 20.0,
+          "buyout": 63.67,
+          "delta": 43.67
+        },
+        {
+          "player": "Aidan",
+          "buyin": 40.0,
+          "buyout": 46.56,
+          "delta": 6.56
+        },
+        {
+          "player": "David",
+          "buyin": 40.0,
+          "buyout": 43.14,
+          "delta": 3.14
+        },
+        {
+          "player": "Zen",
+          "buyin": 54.0,
+          "buyout": 36.69,
+          "delta": -17.31
+        },
+        {
+          "player": "Matt",
+          "buyin": 79.82,
+          "buyout": 43.76,
+          "delta": -36.06
+        }
+      ]
+    },
     {
       "id": 80,
       "date": "2022-07-12",
