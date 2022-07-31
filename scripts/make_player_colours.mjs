@@ -44,6 +44,7 @@ const numPlayers = playerNames.length;
 const paletteHex = iwanthue(numPlayers, {
   clustering: "k-means",
   quality: 100,
+  attempts: 20
 });
 const paletteRgb = paletteHex.map((x) =>
   hexRgb(x, { format: "array" }).slice(0, -1)
