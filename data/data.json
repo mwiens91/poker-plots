@@ -2682,7 +2682,7 @@
       ],
       "avatar": "https://mwiens91.github.io/poker-plots/data/avatars/bei.webp",
       "gameCount": 15,
-      "cumSum": -90.65,
+      "cumSum": -97.04,
       "matchupData": [
         {
           "player": "Bei",
@@ -2694,7 +2694,7 @@
             "Zen"
           ],
           "gameCount": 6,
-          "cumSum": -50.27
+          "cumSum": -56.66
         },
         {
           "player": "Bei",
@@ -2748,7 +2748,7 @@
       ],
       "stats": {
         "total-money-won": 55.75,
-        "total-money-lost": 146.4,
+        "total-money-lost": 152.79,
         "largest-winning-streak": {
           "num-games": 3,
           "total": 40.12,
@@ -2757,7 +2757,7 @@
         },
         "largest-losing-streak": {
           "num-games": 5,
-          "total": -99.75,
+          "total": -106.14,
           "start-game-id": 30,
           "end-game-id": 54
         },
@@ -2794,9 +2794,9 @@
           "date": "2022-03-17",
           "player": "Bei",
           "buyin": 10.0,
-          "buyout": 6.39,
-          "delta": -3.61,
-          "cumSum": -55.53
+          "buyout": 0.0,
+          "delta": -10.0,
+          "cumSum": -61.92
         },
         {
           "id": 41,
@@ -2805,7 +2805,7 @@
           "buyin": 40.0,
           "buyout": 0.0,
           "delta": -40.0,
-          "cumSum": -95.53
+          "cumSum": -101.92
         },
         {
           "id": 54,
@@ -2814,7 +2814,7 @@
           "buyin": 20.0,
           "buyout": 15.78,
           "delta": -4.22,
-          "cumSum": -99.75
+          "cumSum": -106.14
         },
         {
           "id": 55,
@@ -2823,7 +2823,7 @@
           "buyin": 8.72,
           "buyout": 15.12,
           "delta": 6.4,
-          "cumSum": -93.35
+          "cumSum": -99.74
         },
         {
           "id": 64,
@@ -2832,7 +2832,7 @@
           "buyin": 40.0,
           "buyout": 16.87,
           "delta": -23.13,
-          "cumSum": -116.48
+          "cumSum": -122.87
         },
         {
           "id": 65,
@@ -2841,7 +2841,7 @@
           "buyin": 66.37,
           "buyout": 97.01,
           "delta": 30.64,
-          "cumSum": -85.84
+          "cumSum": -92.23
         },
         {
           "id": 66,
@@ -2850,7 +2850,7 @@
           "buyin": 20.0,
           "buyout": 23.86,
           "delta": 3.86,
-          "cumSum": -81.98
+          "cumSum": -88.37
         },
         {
           "id": 68,
@@ -2859,7 +2859,7 @@
           "buyin": 20.0,
           "buyout": 25.62,
           "delta": 5.62,
-          "cumSum": -76.36
+          "cumSum": -82.75
         },
         {
           "id": 69,
@@ -2868,7 +2868,7 @@
           "buyin": 20.0,
           "buyout": 15.02,
           "delta": -4.98,
-          "cumSum": -81.34
+          "cumSum": -87.73
         },
         {
           "id": 71,
@@ -2877,7 +2877,7 @@
           "buyin": 20.0,
           "buyout": 12.01,
           "delta": -7.99,
-          "cumSum": -89.33
+          "cumSum": -95.72
         },
         {
           "id": 72,
@@ -2886,7 +2886,7 @@
           "buyin": 10.0,
           "buyout": 10.77,
           "delta": 0.77,
-          "cumSum": -88.56
+          "cumSum": -94.95
         },
         {
           "id": 75,
@@ -2895,7 +2895,7 @@
           "buyin": 30.0,
           "buyout": 38.46,
           "delta": 8.46,
-          "cumSum": -80.1
+          "cumSum": -86.49
         },
         {
           "id": 79,
@@ -2904,7 +2904,7 @@
           "buyin": 20.0,
           "buyout": 9.45,
           "delta": -10.55,
-          "cumSum": -90.65
+          "cumSum": -97.04
         }
       ]
     },
@@ -6472,8 +6472,8 @@
         {
           "player": "Bei",
           "buyin": 10.0,
-          "buyout": 6.39,
-          "delta": -3.61
+          "buyout": 0.0,
+          "delta": -10.0
         },
         {
           "player": "Juno",
