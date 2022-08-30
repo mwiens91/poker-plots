@@ -2,7 +2,7 @@ russell @ svNTrzTcCk
 10.00	0.00	39.80	+29.80
 david @ svNTrzTcCk
 80.00	0.00	0.00	-80.00
-zen @ svNTrzTcCk
+bobby @ svNTrzTcCk
 50.00	0.00	73.13	+23.13
 juno @ svNTrzTcCk
 20.00	0.00	0.00	-20.00

@@ -16,8 +16,8 @@
           "player": "Matt",
           "players": [
             "Matt",
-            "Juno",
-            "Zen"
+            "Bobby",
+            "Juno"
           ],
           "gameCount": 16,
           "cumSum": 102.63
@@ -27,8 +27,8 @@
           "players": [
             "Matt",
             "Aidan",
-            "Juno",
-            "Zen"
+            "Bobby",
+            "Juno"
           ],
           "gameCount": 16,
           "cumSum": -7.28
@@ -39,8 +39,8 @@
             "Matt",
             "Aidan",
             "Bei",
-            "Juno",
-            "Zen"
+            "Bobby",
+            "Juno"
           ],
           "gameCount": 6,
           "cumSum": 138.91
@@ -50,9 +50,9 @@
           "players": [
             "Matt",
             "Aidan",
+            "Bobby",
             "David",
-            "Juno",
-            "Zen"
+            "Juno"
           ],
           "gameCount": 4,
           "cumSum": 49.59
@@ -63,9 +63,9 @@
             "Matt",
             "Aidan",
             "Bei",
+            "Bobby",
             "David",
-            "Juno",
-            "Zen"
+            "Juno"
           ],
           "gameCount": 3,
           "cumSum": -77.26
@@ -75,7 +75,7 @@
           "players": [
             "Matt",
             "Aidan",
-            "Zen"
+            "Bobby"
           ],
           "gameCount": 3,
           "cumSum": 35.96
@@ -86,7 +86,7 @@
             "Matt",
             "Aidan",
             "Bei",
-            "Zen"
+            "Bobby"
           ],
           "gameCount": 3,
           "cumSum": 24.46
@@ -106,9 +106,9 @@
             "Matt",
             "Aidan",
             "Alex",
+            "Bobby",
             "David",
-            "Juno",
-            "Zen"
+            "Juno"
           ],
           "gameCount": 2,
           "cumSum": 146.02
@@ -117,7 +117,7 @@
           "player": "Matt",
           "players": [
             "Matt",
-            "Zen"
+            "Bobby"
           ],
           "gameCount": 2,
           "cumSum": 69.4
@@ -126,9 +126,9 @@
           "player": "Matt",
           "players": [
             "Matt",
+            "Bobby",
             "David",
-            "Juno",
-            "Zen"
+            "Juno"
           ],
           "gameCount": 1,
           "cumSum": 204.35
@@ -138,10 +138,10 @@
           "players": [
             "Matt",
             "Aidan",
+            "Bobby",
             "Juno",
             "Parker",
-            "Russell",
-            "Zen"
+            "Russell"
           ],
           "gameCount": 1,
           "cumSum": 115.53
@@ -150,9 +150,9 @@
           "player": "Matt",
           "players": [
             "Matt",
+            "Bobby",
             "Jayden",
-            "Juno",
-            "Zen"
+            "Juno"
           ],
           "gameCount": 1,
           "cumSum": 94.9
@@ -162,9 +162,9 @@
           "players": [
             "Matt",
             "Aidan",
+            "Bobby",
             "James",
-            "Juno",
-            "Zen"
+            "Juno"
           ],
           "gameCount": 1,
           "cumSum": 63.09
@@ -175,9 +175,9 @@
             "Matt",
             "Aidan",
             "Alex",
+            "Bobby",
             "Jayden",
-            "Juno",
-            "Zen"
+            "Juno"
           ],
           "gameCount": 1,
           "cumSum": -36.6
@@ -187,9 +187,9 @@
           "players": [
             "Matt",
             "Aidan",
+            "Bobby",
             "David",
-            "James",
-            "Zen"
+            "James"
           ],
           "gameCount": 1,
           "cumSum": -36.06
@@ -200,8 +200,8 @@
             "Matt",
             "Aidan",
             "Alex",
-            "Juno",
-            "Zen"
+            "Bobby",
+            "Juno"
           ],
           "gameCount": 1,
           "cumSum": 24.49
@@ -211,10 +211,10 @@
           "players": [
             "Matt",
             "Aidan",
+            "Bobby",
             "David",
             "Josh",
-            "Juno",
-            "Zen"
+            "Juno"
           ],
           "gameCount": 1,
           "cumSum": -8.59
@@ -223,8 +223,8 @@
           "player": "Matt",
           "players": [
             "Matt",
-            "David",
-            "Zen"
+            "Bobby",
+            "David"
           ],
           "gameCount": 1,
           "cumSum": -8.59
@@ -235,10 +235,10 @@
             "Matt",
             "Aidan",
             "Bei",
+            "Bobby",
             "David",
             "Juno",
-            "Russell",
-            "Zen"
+            "Russell"
           ],
           "gameCount": 1,
           "cumSum": 2.57
@@ -248,8 +248,8 @@
           "players": [
             "Matt",
             "Aidan",
-            "David",
-            "Zen"
+            "Bobby",
+            "David"
           ],
           "gameCount": 1,
           "cumSum": 2.38
@@ -258,9 +258,9 @@
           "player": "Matt",
           "players": [
             "Matt",
+            "Bobby",
             "Juno",
-            "Parker",
-            "Zen"
+            "Parker"
           ],
           "gameCount": 1,
           "cumSum": -1.49
@@ -924,21 +924,21 @@
       ]
     },
     {
-      "name": "Zen",
+      "name": "Bobby",
       "colourHex": "#6266c6",
       "colourRgb": [
         98,
         102,
         198
       ],
-      "avatar": "https://mwiens91.github.io/poker-plots/data/avatars/zen.webp",
+      "avatar": "https://mwiens91.github.io/poker-plots/data/avatars/bobby.webp",
       "gameCount": 87,
       "cumSum": 114.56,
       "matchupData": [
         {
-          "player": "Zen",
+          "player": "Bobby",
           "players": [
-            "Zen",
+            "Bobby",
             "Aidan",
             "Juno",
             "Matt"
@@ -947,9 +947,9 @@
           "cumSum": -21.7
         },
         {
-          "player": "Zen",
+          "player": "Bobby",
           "players": [
-            "Zen",
+            "Bobby",
             "Juno",
             "Matt"
           ],
@@ -957,9 +957,9 @@
           "cumSum": 9.27
         },
         {
-          "player": "Zen",
+          "player": "Bobby",
           "players": [
-            "Zen",
+            "Bobby",
             "Aidan",
             "Juno"
           ],
@@ -967,9 +967,9 @@
           "cumSum": -28.2
         },
         {
-          "player": "Zen",
+          "player": "Bobby",
           "players": [
-            "Zen",
+            "Bobby",
             "Aidan",
             "Bei",
             "Juno",
@@ -979,9 +979,9 @@
           "cumSum": 95.77
         },
         {
-          "player": "Zen",
+          "player": "Bobby",
           "players": [
-            "Zen",
+            "Bobby",
             "Aidan",
             "David",
             "Juno",
@@ -991,18 +991,18 @@
           "cumSum": 15.1
         },
         {
-          "player": "Zen",
+          "player": "Bobby",
           "players": [
-            "Zen",
+            "Bobby",
             "Juno"
           ],
           "gameCount": 3,
           "cumSum": 6.6
         },
         {
-          "player": "Zen",
+          "player": "Bobby",
           "players": [
-            "Zen",
+            "Bobby",
             "Aidan",
             "Bei",
             "Matt"
@@ -1011,9 +1011,9 @@
           "cumSum": -6.41
         },
         {
-          "player": "Zen",
+          "player": "Bobby",
           "players": [
-            "Zen",
+            "Bobby",
             "Aidan",
             "Bei",
             "David",
@@ -1024,9 +1024,9 @@
           "cumSum": -5.6
         },
         {
-          "player": "Zen",
+          "player": "Bobby",
           "players": [
-            "Zen",
+            "Bobby",
             "Aidan",
             "Matt"
           ],
@@ -1034,9 +1034,9 @@
           "cumSum": 3.09
         },
         {
-          "player": "Zen",
+          "player": "Bobby",
           "players": [
-            "Zen",
+            "Bobby",
             "Aidan",
             "Alex",
             "David",
@@ -1047,18 +1047,18 @@
           "cumSum": -88.63
         },
         {
-          "player": "Zen",
+          "player": "Bobby",
           "players": [
-            "Zen",
+            "Bobby",
             "Matt"
           ],
           "gameCount": 2,
           "cumSum": -69.4
         },
         {
-          "player": "Zen",
+          "player": "Bobby",
           "players": [
-            "Zen",
+            "Bobby",
             "Aidan",
             "Bei",
             "Juno"
@@ -1067,9 +1067,9 @@
           "cumSum": 21.58
         },
         {
-          "player": "Zen",
+          "player": "Bobby",
           "players": [
-            "Zen",
+            "Bobby",
             "Aidan",
             "David",
             "Juno"
@@ -1078,9 +1078,9 @@
           "cumSum": -0.75
         },
         {
-          "player": "Zen",
+          "player": "Bobby",
           "players": [
-            "Zen",
+            "Bobby",
             "Aidan",
             "Alex",
             "David",
@@ -1091,9 +1091,9 @@
           "cumSum": 115.0
         },
         {
-          "player": "Zen",
+          "player": "Bobby",
           "players": [
-            "Zen",
+            "Bobby",
             "Juno",
             "Matt",
             "Parker"
@@ -1102,9 +1102,9 @@
           "cumSum": 54.01
         },
         {
-          "player": "Zen",
+          "player": "Bobby",
           "players": [
-            "Zen",
+            "Bobby",
             "Aidan",
             "Alex",
             "Jayden",
@@ -1115,9 +1115,9 @@
           "cumSum": -35.63
         },
         {
-          "player": "Zen",
+          "player": "Bobby",
           "players": [
-            "Zen",
+            "Bobby",
             "Aidan",
             "Alex",
             "David",
@@ -1128,9 +1128,9 @@
           "cumSum": 23.13
         },
         {
-          "player": "Zen",
+          "player": "Bobby",
           "players": [
-            "Zen",
+            "Bobby",
             "Aidan",
             "James",
             "Juno",
@@ -1140,9 +1140,9 @@
           "cumSum": -22.98
         },
         {
-          "player": "Zen",
+          "player": "Bobby",
           "players": [
-            "Zen",
+            "Bobby",
             "Aidan",
             "David",
             "Josh",
@@ -1153,9 +1153,9 @@
           "cumSum": 20.69
         },
         {
-          "player": "Zen",
+          "player": "Bobby",
           "players": [
-            "Zen",
+            "Bobby",
             "David",
             "Juno"
           ],
@@ -1163,9 +1163,9 @@
           "cumSum": 18.78
         },
         {
-          "player": "Zen",
+          "player": "Bobby",
           "players": [
-            "Zen",
+            "Bobby",
             "Aidan",
             "David",
             "James",
@@ -1175,9 +1175,9 @@
           "cumSum": -17.31
         },
         {
-          "player": "Zen",
+          "player": "Bobby",
           "players": [
-            "Zen",
+            "Bobby",
             "Aidan",
             "Alex",
             "Juno"
@@ -1186,9 +1186,9 @@
           "cumSum": 14.25
         },
         {
-          "player": "Zen",
+          "player": "Bobby",
           "players": [
-            "Zen",
+            "Bobby",
             "Jayden",
             "Juno",
             "Matt"
@@ -1197,9 +1197,9 @@
           "cumSum": 13.55
         },
         {
-          "player": "Zen",
+          "player": "Bobby",
           "players": [
-            "Zen",
+            "Bobby",
             "Aidan",
             "Bei",
             "David",
@@ -1211,9 +1211,9 @@
           "cumSum": 12.11
         },
         {
-          "player": "Zen",
+          "player": "Bobby",
           "players": [
-            "Zen",
+            "Bobby",
             "Aidan",
             "Juno",
             "Matt",
@@ -1224,9 +1224,9 @@
           "cumSum": 10.47
         },
         {
-          "player": "Zen",
+          "player": "Bobby",
           "players": [
-            "Zen",
+            "Bobby",
             "Aidan",
             "Juno",
             "Shawn"
@@ -1235,9 +1235,9 @@
           "cumSum": -10.0
         },
         {
-          "player": "Zen",
+          "player": "Bobby",
           "players": [
-            "Zen",
+            "Bobby",
             "Aidan",
             "Alex",
             "Juno",
@@ -1247,9 +1247,9 @@
           "cumSum": -7.7
         },
         {
-          "player": "Zen",
+          "player": "Bobby",
           "players": [
-            "Zen",
+            "Bobby",
             "David",
             "Matt"
           ],
@@ -1257,9 +1257,9 @@
           "cumSum": 7.42
         },
         {
-          "player": "Zen",
+          "player": "Bobby",
           "players": [
-            "Zen",
+            "Bobby",
             "David",
             "Juno",
             "Matt"
@@ -1268,9 +1268,9 @@
           "cumSum": -7.31
         },
         {
-          "player": "Zen",
+          "player": "Bobby",
           "players": [
-            "Zen",
+            "Bobby",
             "Aidan",
             "David",
             "Matt"
@@ -1279,9 +1279,9 @@
           "cumSum": -2.44
         },
         {
-          "player": "Zen",
+          "player": "Bobby",
           "players": [
-            "Zen",
+            "Bobby",
             "David",
             "Jayden",
             "Juno"
@@ -1318,7 +1318,7 @@
         {
           "id": 1,
           "date": "2021-09-30",
-          "player": "Zen",
+          "player": "Bobby",
           "buyin": 4.0,
           "buyout": 18.25,
           "delta": 14.25,
@@ -1327,7 +1327,7 @@
         {
           "id": 2,
           "date": "2021-10-01",
-          "player": "Zen",
+          "player": "Bobby",
           "buyin": 2.0,
           "buyout": 117.0,
           "delta": 115.0,
@@ -1336,7 +1336,7 @@
         {
           "id": 3,
           "date": "2021-11-05",
-          "player": "Zen",
+          "player": "Bobby",
           "buyin": 50.0,
           "buyout": 73.13,
           "delta": 23.13,
@@ -1345,7 +1345,7 @@
         {
           "id": 4,
           "date": "2021-12-21",
-          "player": "Zen",
+          "player": "Bobby",
           "buyin": 20.0,
           "buyout": 38.78,
           "delta": 18.78,
@@ -1354,7 +1354,7 @@
         {
           "id": 5,
           "date": "2021-12-23",
-          "player": "Zen",
+          "player": "Bobby",
           "buyin": 30.0,
           "buyout": 30.66,
           "delta": 0.66,
@@ -1363,7 +1363,7 @@
         {
           "id": 6,
           "date": "2021-12-24",
-          "player": "Zen",
+          "player": "Bobby",
           "buyin": 125.76,
           "buyout": 34.38,
           "delta": -91.38,
@@ -1372,7 +1372,7 @@
         {
           "id": 7,
           "date": "2021-12-27",
-          "player": "Zen",
+          "player": "Bobby",
           "buyin": 47.09,
           "buyout": 49.84,
           "delta": 2.75,
@@ -1381,7 +1381,7 @@
         {
           "id": 8,
           "date": "2021-12-29",
-          "player": "Zen",
+          "player": "Bobby",
           "buyin": 42.0,
           "buyout": 40.33,
           "delta": -1.67,
@@ -1390,7 +1390,7 @@
         {
           "id": 9,
           "date": "2021-12-30",
-          "player": "Zen",
+          "player": "Bobby",
           "buyin": 22.0,
           "buyout": 14.3,
           "delta": -7.7,
@@ -1399,7 +1399,7 @@
         {
           "id": 10,
           "date": "2022-01-01",
-          "player": "Zen",
+          "player": "Bobby",
           "buyin": 20.22,
           "buyout": 16.64,
           "delta": -3.58,
@@ -1408,7 +1408,7 @@
         {
           "id": 11,
           "date": "2022-01-03",
-          "player": "Zen",
+          "player": "Bobby",
           "buyin": 100.0,
           "buyout": 64.37,
           "delta": -35.63,
@@ -1417,7 +1417,7 @@
         {
           "id": 12,
           "date": "2022-01-04",
-          "player": "Zen",
+          "player": "Bobby",
           "buyin": 80.0,
           "buyout": 79.6,
           "delta": -0.4,
@@ -1426,7 +1426,7 @@
         {
           "id": 13,
           "date": "2022-01-05",
-          "player": "Zen",
+          "player": "Bobby",
           "buyin": 20.0,
           "buyout": 17.8,
           "delta": -2.2,
@@ -1435,7 +1435,7 @@
         {
           "id": 14,
           "date": "2022-01-06",
-          "player": "Zen",
+          "player": "Bobby",
           "buyin": 20.0,
           "buyout": 15.3,
           "delta": -4.7,
@@ -1444,7 +1444,7 @@
         {
           "id": 15,
           "date": "2022-01-12",
-          "player": "Zen",
+          "player": "Bobby",
           "buyin": 20.0,
           "buyout": 0.0,
           "delta": -20.0,
@@ -1453,7 +1453,7 @@
         {
           "id": 16,
           "date": "2022-01-14",
-          "player": "Zen",
+          "player": "Bobby",
           "buyin": 100.0,
           "buyout": 32.6,
           "delta": -67.4,
@@ -1462,7 +1462,7 @@
         {
           "id": 17,
           "date": "2022-01-15",
-          "player": "Zen",
+          "player": "Bobby",
           "buyin": 20.0,
           "buyout": 15.1,
           "delta": -4.9,
@@ -1471,7 +1471,7 @@
         {
           "id": 18,
           "date": "2022-01-19",
-          "player": "Zen",
+          "player": "Bobby",
           "buyin": 30.0,
           "buyout": 27.99,
           "delta": -2.01,
@@ -1480,7 +1480,7 @@
         {
           "id": 19,
           "date": "2022-01-21",
-          "player": "Zen",
+          "player": "Bobby",
           "buyin": 20.0,
           "buyout": 30.98,
           "delta": 10.98,
@@ -1489,7 +1489,7 @@
         {
           "id": 20,
           "date": "2022-01-26",
-          "player": "Zen",
+          "player": "Bobby",
           "buyin": 10.0,
           "buyout": 52.02,
           "delta": 42.02,
@@ -1498,7 +1498,7 @@
         {
           "id": 21,
           "date": "2022-01-27",
-          "player": "Zen",
+          "player": "Bobby",
           "buyin": 20.0,
           "buyout": 13.48,
           "delta": -6.52,
@@ -1507,7 +1507,7 @@
         {
           "id": 22,
           "date": "2022-02-05",
-          "player": "Zen",
+          "player": "Bobby",
           "buyin": 20.0,
           "buyout": 44.7,
           "delta": 24.7,
@@ -1516,7 +1516,7 @@
         {
           "id": 23,
           "date": "2022-02-10",
-          "player": "Zen",
+          "player": "Bobby",
           "buyin": 10.0,
           "buyout": 20.0,
           "delta": 10.0,
@@ -1525,7 +1525,7 @@
         {
           "id": 24,
           "date": "2022-02-11",
-          "player": "Zen",
+          "player": "Bobby",
           "buyin": 30.0,
           "buyout": 24.87,
           "delta": -5.13,
@@ -1534,7 +1534,7 @@
         {
           "id": 25,
           "date": "2022-02-13",
-          "player": "Zen",
+          "player": "Bobby",
           "buyin": 10.0,
           "buyout": 30.95,
           "delta": 20.95,
@@ -1543,7 +1543,7 @@
         {
           "id": 26,
           "date": "2022-02-14",
-          "player": "Zen",
+          "player": "Bobby",
           "buyin": 3.0,
           "buyout": 0.0,
           "delta": -3.0,
@@ -1552,7 +1552,7 @@
         {
           "id": 27,
           "date": "2022-02-15",
-          "player": "Zen",
+          "player": "Bobby",
           "buyin": 20.0,
           "buyout": 66.4,
           "delta": 46.4,
@@ -1561,7 +1561,7 @@
         {
           "id": 28,
           "date": "2022-02-16",
-          "player": "Zen",
+          "player": "Bobby",
           "buyin": 40.0,
           "buyout": 12.72,
           "delta": -27.28,
@@ -1570,7 +1570,7 @@
         {
           "id": 29,
           "date": "2022-02-17",
-          "player": "Zen",
+          "player": "Bobby",
           "buyin": 20.0,
           "buyout": 44.63,
           "delta": 24.63,
@@ -1579,7 +1579,7 @@
         {
           "id": 30,
           "date": "2022-02-22",
-          "player": "Zen",
+          "player": "Bobby",
           "buyin": 40.0,
           "buyout": 64.75,
           "delta": 24.75,
@@ -1588,7 +1588,7 @@
         {
           "id": 31,
           "date": "2022-02-25",
-          "player": "Zen",
+          "player": "Bobby",
           "buyin": 2.0,
           "buyout": 0.0,
           "delta": -2.0,
@@ -1597,7 +1597,7 @@
         {
           "id": 32,
           "date": "2022-02-28",
-          "player": "Zen",
+          "player": "Bobby",
           "buyin": 60.0,
           "buyout": 31.05,
           "delta": -28.95,
@@ -1606,7 +1606,7 @@
         {
           "id": 33,
           "date": "2022-03-02",
-          "player": "Zen",
+          "player": "Bobby",
           "buyin": 15.0,
           "buyout": 22.99,
           "delta": 7.99,
@@ -1615,7 +1615,7 @@
         {
           "id": 34,
           "date": "2022-03-03",
-          "player": "Zen",
+          "player": "Bobby",
           "buyin": 5.0,
           "buyout": 9.67,
           "delta": 4.67,
@@ -1624,7 +1624,7 @@
         {
           "id": 35,
           "date": "2022-03-05",
-          "player": "Zen",
+          "player": "Bobby",
           "buyin": 10.0,
           "buyout": 12.55,
           "delta": 2.55,
@@ -1633,7 +1633,7 @@
         {
           "id": 36,
           "date": "2022-03-10",
-          "player": "Zen",
+          "player": "Bobby",
           "buyin": 60.0,
           "buyout": 41.77,
           "delta": -18.23,
@@ -1642,7 +1642,7 @@
         {
           "id": 37,
           "date": "2022-03-12",
-          "player": "Zen",
+          "player": "Bobby",
           "buyin": 80.0,
           "buyout": 52.9,
           "delta": -27.1,
@@ -1651,7 +1651,7 @@
         {
           "id": 38,
           "date": "2022-03-16",
-          "player": "Zen",
+          "player": "Bobby",
           "buyin": 100.0,
           "buyout": 78.05,
           "delta": -21.95,
@@ -1660,7 +1660,7 @@
         {
           "id": 39,
           "date": "2022-03-17",
-          "player": "Zen",
+          "player": "Bobby",
           "buyin": 20.0,
           "buyout": 43.59,
           "delta": 23.59,
@@ -1669,7 +1669,7 @@
         {
           "id": 40,
           "date": "2022-03-21",
-          "player": "Zen",
+          "player": "Bobby",
           "buyin": 30.0,
           "buyout": 40.47,
           "delta": 10.47,
@@ -1678,7 +1678,7 @@
         {
           "id": 41,
           "date": "2022-03-25",
-          "player": "Zen",
+          "player": "Bobby",
           "buyin": 40.0,
           "buyout": 52.11,
           "delta": 12.11,
@@ -1687,7 +1687,7 @@
         {
           "id": 43,
           "date": "2022-04-01",
-          "player": "Zen",
+          "player": "Bobby",
           "buyin": 40.0,
           "buyout": 47.83,
           "delta": 7.83,
@@ -1696,7 +1696,7 @@
         {
           "id": 44,
           "date": "2022-04-06",
-          "player": "Zen",
+          "player": "Bobby",
           "buyin": 20.0,
           "buyout": 13.92,
           "delta": -6.08,
@@ -1705,7 +1705,7 @@
         {
           "id": 45,
           "date": "2022-04-09",
-          "player": "Zen",
+          "player": "Bobby",
           "buyin": 10.0,
           "buyout": 15.62,
           "delta": 5.62,
@@ -1714,7 +1714,7 @@
         {
           "id": 46,
           "date": "2022-04-11",
-          "player": "Zen",
+          "player": "Bobby",
           "buyin": 80.0,
           "buyout": 14.29,
           "delta": -65.71,
@@ -1723,7 +1723,7 @@
         {
           "id": 47,
           "date": "2022-04-13",
-          "player": "Zen",
+          "player": "Bobby",
           "buyin": 40.43,
           "buyout": 0.0,
           "delta": -40.43,
@@ -1732,7 +1732,7 @@
         {
           "id": 48,
           "date": "2022-04-14",
-          "player": "Zen",
+          "player": "Bobby",
           "buyin": 20.0,
           "buyout": 20.07,
           "delta": 0.07,
@@ -1741,7 +1741,7 @@
         {
           "id": 49,
           "date": "2022-04-16",
-          "player": "Zen",
+          "player": "Bobby",
           "buyin": 20.0,
           "buyout": 40.69,
           "delta": 20.69,
@@ -1750,7 +1750,7 @@
         {
           "id": 50,
           "date": "2022-04-19",
-          "player": "Zen",
+          "player": "Bobby",
           "buyin": 20.0,
           "buyout": 38.84,
           "delta": 18.84,
@@ -1759,7 +1759,7 @@
         {
           "id": 51,
           "date": "2022-04-20",
-          "player": "Zen",
+          "player": "Bobby",
           "buyin": 60.0,
           "buyout": 41.92,
           "delta": -18.08,
@@ -1768,7 +1768,7 @@
         {
           "id": 52,
           "date": "2022-04-22",
-          "player": "Zen",
+          "player": "Bobby",
           "buyin": 60.0,
           "buyout": 68.87,
           "delta": 8.87,
@@ -1777,7 +1777,7 @@
         {
           "id": 54,
           "date": "2022-04-28",
-          "player": "Zen",
+          "player": "Bobby",
           "buyin": 60.0,
           "buyout": 54.83,
           "delta": -5.17,
@@ -1786,7 +1786,7 @@
         {
           "id": 55,
           "date": "2022-04-28",
-          "player": "Zen",
+          "player": "Bobby",
           "buyin": 10.0,
           "buyout": 5.69,
           "delta": -4.31,
@@ -1795,7 +1795,7 @@
         {
           "id": 56,
           "date": "2022-04-30",
-          "player": "Zen",
+          "player": "Bobby",
           "buyin": 10.0,
           "buyout": 10.61,
           "delta": 0.61,
@@ -1804,7 +1804,7 @@
         {
           "id": 57,
           "date": "2022-05-01",
-          "player": "Zen",
+          "player": "Bobby",
           "buyin": 10.0,
           "buyout": 19.66,
           "delta": 9.66,
@@ -1813,7 +1813,7 @@
         {
           "id": 58,
           "date": "2022-05-03",
-          "player": "Zen",
+          "player": "Bobby",
           "buyin": 10.0,
           "buyout": 17.42,
           "delta": 7.42,
@@ -1822,7 +1822,7 @@
         {
           "id": 59,
           "date": "2022-05-05",
-          "player": "Zen",
+          "player": "Bobby",
           "buyin": 30.0,
           "buyout": 27.05,
           "delta": -2.95,
@@ -1831,7 +1831,7 @@
         {
           "id": 60,
           "date": "2022-05-06",
-          "player": "Zen",
+          "player": "Bobby",
           "buyin": 20.0,
           "buyout": 24.82,
           "delta": 4.82,
@@ -1840,7 +1840,7 @@
         {
           "id": 61,
           "date": "2022-05-07",
-          "player": "Zen",
+          "player": "Bobby",
           "buyin": 20.0,
           "buyout": 40.56,
           "delta": 20.56,
@@ -1849,7 +1849,7 @@
         {
           "id": 63,
           "date": "2022-05-13",
-          "player": "Zen",
+          "player": "Bobby",
           "buyin": 20.0,
           "buyout": 33.55,
           "delta": 13.55,
@@ -1858,7 +1858,7 @@
         {
           "id": 64,
           "date": "2022-05-14",
-          "player": "Zen",
+          "player": "Bobby",
           "buyin": 20.0,
           "buyout": 22.5,
           "delta": 2.5,
@@ -1867,7 +1867,7 @@
         {
           "id": 65,
           "date": "2022-05-19",
-          "player": "Zen",
+          "player": "Bobby",
           "buyin": 46.53,
           "buyout": 46.34,
           "delta": -0.19,
@@ -1876,7 +1876,7 @@
         {
           "id": 66,
           "date": "2022-05-23",
-          "player": "Zen",
+          "player": "Bobby",
           "buyin": 20.0,
           "buyout": 61.65,
           "delta": 41.65,
@@ -1885,7 +1885,7 @@
         {
           "id": 67,
           "date": "2022-05-26",
-          "player": "Zen",
+          "player": "Bobby",
           "buyin": 20.0,
           "buyout": 74.01,
           "delta": 54.01,
@@ -1894,7 +1894,7 @@
         {
           "id": 68,
           "date": "2022-06-02",
-          "player": "Zen",
+          "player": "Bobby",
           "buyin": 20.0,
           "buyout": 49.18,
           "delta": 29.18,
@@ -1903,7 +1903,7 @@
         {
           "id": 69,
           "date": "2022-06-04",
-          "player": "Zen",
+          "player": "Bobby",
           "buyin": 30.0,
           "buyout": 28.2,
           "delta": -1.8,
@@ -1912,7 +1912,7 @@
         {
           "id": 70,
           "date": "2022-06-15",
-          "player": "Zen",
+          "player": "Bobby",
           "buyin": 25.0,
           "buyout": 31.23,
           "delta": 6.23,
@@ -1921,7 +1921,7 @@
         {
           "id": 71,
           "date": "2022-06-17",
-          "player": "Zen",
+          "player": "Bobby",
           "buyin": 77.43,
           "buyout": 73.82,
           "delta": -3.61,
@@ -1930,7 +1930,7 @@
         {
           "id": 72,
           "date": "2022-06-21",
-          "player": "Zen",
+          "player": "Bobby",
           "buyin": 10.0,
           "buyout": 14.83,
           "delta": 4.83,
@@ -1939,7 +1939,7 @@
         {
           "id": 73,
           "date": "2022-06-24",
-          "player": "Zen",
+          "player": "Bobby",
           "buyin": 75.0,
           "buyout": 67.69,
           "delta": -7.31,
@@ -1948,7 +1948,7 @@
         {
           "id": 74,
           "date": "2022-06-25",
-          "player": "Zen",
+          "player": "Bobby",
           "buyin": 15.0,
           "buyout": 12.56,
           "delta": -2.44,
@@ -1957,7 +1957,7 @@
         {
           "id": 75,
           "date": "2022-06-26",
-          "player": "Zen",
+          "player": "Bobby",
           "buyin": 15.0,
           "buyout": 31.75,
           "delta": 16.75,
@@ -1966,7 +1966,7 @@
         {
           "id": 76,
           "date": "2022-06-28",
-          "player": "Zen",
+          "player": "Bobby",
           "buyin": 40.0,
           "buyout": 17.1,
           "delta": -22.9,
@@ -1975,7 +1975,7 @@
         {
           "id": 77,
           "date": "2022-07-02",
-          "player": "Zen",
+          "player": "Bobby",
           "buyin": 15.0,
           "buyout": 33.29,
           "delta": 18.29,
@@ -1984,7 +1984,7 @@
         {
           "id": 78,
           "date": "2022-07-04",
-          "player": "Zen",
+          "player": "Bobby",
           "buyin": 20.0,
           "buyout": 7.89,
           "delta": -12.11,
@@ -1993,7 +1993,7 @@
         {
           "id": 79,
           "date": "2022-07-09",
-          "player": "Zen",
+          "player": "Bobby",
           "buyin": 20.0,
           "buyout": 15.4,
           "delta": -4.6,
@@ -2002,7 +2002,7 @@
         {
           "id": 80,
           "date": "2022-07-12",
-          "player": "Zen",
+          "player": "Bobby",
           "buyin": 10.0,
           "buyout": 12.25,
           "delta": 2.25,
@@ -2011,7 +2011,7 @@
         {
           "id": 81,
           "date": "2022-07-17",
-          "player": "Zen",
+          "player": "Bobby",
           "buyin": 54.0,
           "buyout": 36.69,
           "delta": -17.31,
@@ -2020,7 +2020,7 @@
         {
           "id": 82,
           "date": "2022-07-18",
-          "player": "Zen",
+          "player": "Bobby",
           "buyin": 10.0,
           "buyout": 0.0,
           "delta": -10.0,
@@ -2029,7 +2029,7 @@
         {
           "id": 83,
           "date": "2022-07-31",
-          "player": "Zen",
+          "player": "Bobby",
           "buyin": 25.0,
           "buyout": 24.85,
           "delta": -0.15,
@@ -2038,7 +2038,7 @@
         {
           "id": 84,
           "date": "2022-08-03",
-          "player": "Zen",
+          "player": "Bobby",
           "buyin": 60.0,
           "buyout": 37.02,
           "delta": -22.98,
@@ -2047,7 +2047,7 @@
         {
           "id": 85,
           "date": "2022-08-04",
-          "player": "Zen",
+          "player": "Bobby",
           "buyin": 30.0,
           "buyout": 11.85,
           "delta": -18.15,
@@ -2056,7 +2056,7 @@
         {
           "id": 86,
           "date": "2022-08-05",
-          "player": "Zen",
+          "player": "Bobby",
           "buyin": 40.0,
           "buyout": 58.28,
           "delta": 18.28,
@@ -2065,7 +2065,7 @@
         {
           "id": 87,
           "date": "2022-08-08",
-          "player": "Zen",
+          "player": "Bobby",
           "buyin": 43.21,
           "buyout": 33.35,
           "delta": -9.86,
@@ -2074,7 +2074,7 @@
         {
           "id": 88,
           "date": "2022-08-14",
-          "player": "Zen",
+          "player": "Bobby",
           "buyin": 10.0,
           "buyout": 10.92,
           "delta": 0.92,
@@ -2083,7 +2083,7 @@
         {
           "id": 89,
           "date": "2022-08-16",
-          "player": "Zen",
+          "player": "Bobby",
           "buyin": 10.0,
           "buyout": 28.01,
           "delta": 18.01,
@@ -2092,7 +2092,7 @@
         {
           "id": 90,
           "date": "2022-08-18",
-          "player": "Zen",
+          "player": "Bobby",
           "buyin": 15.0,
           "buyout": 15.61,
           "delta": 0.61,
@@ -2117,9 +2117,9 @@
           "players": [
             "James",
             "Aidan",
+            "Bobby",
             "David",
-            "Matt",
-            "Zen"
+            "Matt"
           ],
           "gameCount": 1,
           "cumSum": 43.67
@@ -2129,9 +2129,9 @@
           "players": [
             "James",
             "Aidan",
+            "Bobby",
             "Juno",
-            "Matt",
-            "Zen"
+            "Matt"
           ],
           "gameCount": 1,
           "cumSum": -30.0
@@ -2199,10 +2199,10 @@
           "players": [
             "Russell",
             "Aidan",
+            "Bobby",
             "Juno",
             "Matt",
-            "Parker",
-            "Zen"
+            "Parker"
           ],
           "gameCount": 1,
           "cumSum": -30.0
@@ -2213,9 +2213,9 @@
             "Russell",
             "Aidan",
             "Alex",
+            "Bobby",
             "David",
-            "Juno",
-            "Zen"
+            "Juno"
           ],
           "gameCount": 1,
           "cumSum": 29.8
@@ -2226,10 +2226,10 @@
             "Russell",
             "Aidan",
             "Bei",
+            "Bobby",
             "David",
             "Juno",
-            "Matt",
-            "Zen"
+            "Matt"
           ],
           "gameCount": 1,
           "cumSum": 2.73
@@ -2306,8 +2306,8 @@
           "players": [
             "Shawn",
             "Aidan",
-            "Juno",
-            "Zen"
+            "Bobby",
+            "Juno"
           ],
           "gameCount": 1,
           "cumSum": -4.26
@@ -2359,9 +2359,9 @@
             "Jayden",
             "Aidan",
             "Alex",
+            "Bobby",
             "Juno",
-            "Matt",
-            "Zen"
+            "Matt"
           ],
           "gameCount": 1,
           "cumSum": 45.62
@@ -2372,9 +2372,9 @@
             "Jayden",
             "Aidan",
             "Alex",
+            "Bobby",
             "David",
-            "Juno",
-            "Zen"
+            "Juno"
           ],
           "gameCount": 1,
           "cumSum": -25.28
@@ -2383,9 +2383,9 @@
           "player": "Jayden",
           "players": [
             "Jayden",
+            "Bobby",
             "David",
-            "Juno",
-            "Zen"
+            "Juno"
           ],
           "gameCount": 1,
           "cumSum": -21.55
@@ -2394,9 +2394,9 @@
           "player": "Jayden",
           "players": [
             "Jayden",
+            "Bobby",
             "Juno",
-            "Matt",
-            "Zen"
+            "Matt"
           ],
           "gameCount": 1,
           "cumSum": -20.0
@@ -2482,10 +2482,10 @@
           "players": [
             "Josh",
             "Aidan",
+            "Bobby",
             "David",
             "Juno",
-            "Matt",
-            "Zen"
+            "Matt"
           ],
           "gameCount": 1,
           "cumSum": -33.21
@@ -2536,10 +2536,10 @@
           "players": [
             "Parker",
             "Aidan",
+            "Bobby",
             "Juno",
             "Matt",
-            "Russell",
-            "Zen"
+            "Russell"
           ],
           "gameCount": 1,
           "cumSum": -22.42
@@ -2548,9 +2548,9 @@
           "player": "Parker",
           "players": [
             "Parker",
+            "Bobby",
             "Juno",
-            "Matt",
-            "Zen"
+            "Matt"
           ],
           "gameCount": 1,
           "cumSum": -11.0
@@ -2610,10 +2610,10 @@
           "players": [
             "Alex",
             "Aidan",
+            "Bobby",
             "David",
             "Juno",
-            "Matt",
-            "Zen"
+            "Matt"
           ],
           "gameCount": 2,
           "cumSum": 22.04
@@ -2623,10 +2623,10 @@
           "players": [
             "Alex",
             "Aidan",
+            "Bobby",
             "David",
             "Jayden",
-            "Juno",
-            "Zen"
+            "Juno"
           ],
           "gameCount": 1,
           "cumSum": -56.09
@@ -2636,10 +2636,10 @@
           "players": [
             "Alex",
             "Aidan",
+            "Bobby",
             "Jayden",
             "Juno",
-            "Matt",
-            "Zen"
+            "Matt"
           ],
           "gameCount": 1,
           "cumSum": -45.09
@@ -2649,10 +2649,10 @@
           "players": [
             "Alex",
             "Aidan",
+            "Bobby",
             "David",
             "Juno",
-            "Russell",
-            "Zen"
+            "Russell"
           ],
           "gameCount": 1,
           "cumSum": 44.06
@@ -2662,9 +2662,9 @@
           "players": [
             "Alex",
             "Aidan",
+            "Bobby",
             "Juno",
-            "Matt",
-            "Zen"
+            "Matt"
           ],
           "gameCount": 1,
           "cumSum": -19.6
@@ -2674,8 +2674,8 @@
           "players": [
             "Alex",
             "Aidan",
-            "Juno",
-            "Zen"
+            "Bobby",
+            "Juno"
           ],
           "gameCount": 1,
           "cumSum": -2.0
@@ -2788,9 +2788,9 @@
           "players": [
             "Bei",
             "Aidan",
+            "Bobby",
             "Juno",
-            "Matt",
-            "Zen"
+            "Matt"
           ],
           "gameCount": 6,
           "cumSum": -56.66
@@ -2800,8 +2800,8 @@
           "players": [
             "Bei",
             "Aidan",
-            "Matt",
-            "Zen"
+            "Bobby",
+            "Matt"
           ],
           "gameCount": 3,
           "cumSum": -27.28
@@ -2811,10 +2811,10 @@
           "players": [
             "Bei",
             "Aidan",
+            "Bobby",
             "David",
             "Juno",
-            "Matt",
-            "Zen"
+            "Matt"
           ],
           "gameCount": 3,
           "cumSum": 17.67
@@ -2824,8 +2824,8 @@
           "players": [
             "Bei",
             "Aidan",
-            "Juno",
-            "Zen"
+            "Bobby",
+            "Juno"
           ],
           "gameCount": 2,
           "cumSum": 9.23
@@ -2835,11 +2835,11 @@
           "players": [
             "Bei",
             "Aidan",
+            "Bobby",
             "David",
             "Juno",
             "Matt",
-            "Russell",
-            "Zen"
+            "Russell"
           ],
           "gameCount": 1,
           "cumSum": -40.0
@@ -3023,9 +3023,9 @@
           "player": "Aidan",
           "players": [
             "Aidan",
+            "Bobby",
             "Juno",
-            "Matt",
-            "Zen"
+            "Matt"
           ],
           "gameCount": 16,
           "cumSum": -128.86
@@ -3034,8 +3034,8 @@
           "player": "Aidan",
           "players": [
             "Aidan",
-            "Juno",
-            "Zen"
+            "Bobby",
+            "Juno"
           ],
           "gameCount": 7,
           "cumSum": -6.11
@@ -3045,9 +3045,9 @@
           "players": [
             "Aidan",
             "Bei",
+            "Bobby",
             "Juno",
-            "Matt",
-            "Zen"
+            "Matt"
           ],
           "gameCount": 6,
           "cumSum": 80.58
@@ -3056,10 +3056,10 @@
           "player": "Aidan",
           "players": [
             "Aidan",
+            "Bobby",
             "David",
             "Juno",
-            "Matt",
-            "Zen"
+            "Matt"
           ],
           "gameCount": 4,
           "cumSum": -43.36
@@ -3069,10 +3069,10 @@
           "players": [
             "Aidan",
             "Bei",
+            "Bobby",
             "David",
             "Juno",
-            "Matt",
-            "Zen"
+            "Matt"
           ],
           "gameCount": 3,
           "cumSum": -46.79
@@ -3081,8 +3081,8 @@
           "player": "Aidan",
           "players": [
             "Aidan",
-            "Matt",
-            "Zen"
+            "Bobby",
+            "Matt"
           ],
           "gameCount": 3,
           "cumSum": -39.05
@@ -3092,8 +3092,8 @@
           "players": [
             "Aidan",
             "Bei",
-            "Matt",
-            "Zen"
+            "Bobby",
+            "Matt"
           ],
           "gameCount": 3,
           "cumSum": 9.23
@@ -3102,9 +3102,9 @@
           "player": "Aidan",
           "players": [
             "Aidan",
+            "Bobby",
             "David",
-            "Juno",
-            "Zen"
+            "Juno"
           ],
           "gameCount": 2,
           "cumSum": 57.61
@@ -3114,10 +3114,10 @@
           "players": [
             "Aidan",
             "Alex",
+            "Bobby",
             "David",
             "Juno",
-            "Matt",
-            "Zen"
+            "Matt"
           ],
           "gameCount": 2,
           "cumSum": 5.16
@@ -3127,8 +3127,8 @@
           "players": [
             "Aidan",
             "Bei",
-            "Juno",
-            "Zen"
+            "Bobby",
+            "Juno"
           ],
           "gameCount": 2,
           "cumSum": 0.88
@@ -3137,11 +3137,11 @@
           "player": "Aidan",
           "players": [
             "Aidan",
+            "Bobby",
             "Juno",
             "Matt",
             "Parker",
-            "Russell",
-            "Zen"
+            "Russell"
           ],
           "gameCount": 1,
           "cumSum": 66.41
@@ -3151,10 +3151,10 @@
           "players": [
             "Aidan",
             "Alex",
+            "Bobby",
             "Jayden",
             "Juno",
-            "Matt",
-            "Zen"
+            "Matt"
           ],
           "gameCount": 1,
           "cumSum": -40.0
@@ -3163,10 +3163,10 @@
           "player": "Aidan",
           "players": [
             "Aidan",
+            "Bobby",
             "James",
             "Juno",
-            "Matt",
-            "Zen"
+            "Matt"
           ],
           "gameCount": 1,
           "cumSum": -29.0
@@ -3175,9 +3175,9 @@
           "player": "Aidan",
           "players": [
             "Aidan",
+            "Bobby",
             "David",
-            "Matt",
-            "Zen"
+            "Matt"
           ],
           "gameCount": 1,
           "cumSum": 10.06
@@ -3186,10 +3186,10 @@
           "player": "Aidan",
           "players": [
             "Aidan",
+            "Bobby",
             "David",
             "James",
-            "Matt",
-            "Zen"
+            "Matt"
           ],
           "gameCount": 1,
           "cumSum": 6.56
@@ -3199,8 +3199,8 @@
           "players": [
             "Aidan",
             "Alex",
-            "Juno",
-            "Zen"
+            "Bobby",
+            "Juno"
           ],
           "gameCount": 1,
           "cumSum": -4.25
@@ -3210,10 +3210,10 @@
           "players": [
             "Aidan",
             "Alex",
+            "Bobby",
             "David",
             "Juno",
-            "Russell",
-            "Zen"
+            "Russell"
           ],
           "gameCount": 1,
           "cumSum": 3.01
@@ -3222,9 +3222,9 @@
           "player": "Aidan",
           "players": [
             "Aidan",
+            "Bobby",
             "Juno",
-            "Shawn",
-            "Zen"
+            "Shawn"
           ],
           "gameCount": 1,
           "cumSum": -1.84
@@ -3234,10 +3234,10 @@
           "players": [
             "Aidan",
             "Alex",
+            "Bobby",
             "David",
             "Jayden",
-            "Juno",
-            "Zen"
+            "Juno"
           ],
           "gameCount": 1,
           "cumSum": 1.1
@@ -3247,11 +3247,11 @@
           "players": [
             "Aidan",
             "Bei",
+            "Bobby",
             "David",
             "Juno",
             "Matt",
-            "Russell",
-            "Zen"
+            "Russell"
           ],
           "gameCount": 1,
           "cumSum": 0.94
@@ -3261,9 +3261,9 @@
           "players": [
             "Aidan",
             "Alex",
+            "Bobby",
             "Juno",
-            "Matt",
-            "Zen"
+            "Matt"
           ],
           "gameCount": 1,
           "cumSum": 0.4
@@ -3272,11 +3272,11 @@
           "player": "Aidan",
           "players": [
             "Aidan",
+            "Bobby",
             "David",
             "Josh",
             "Juno",
-            "Matt",
-            "Zen"
+            "Matt"
           ],
           "gameCount": 1,
           "cumSum": -0.06
@@ -3866,9 +3866,9 @@
           "players": [
             "David",
             "Aidan",
+            "Bobby",
             "Juno",
-            "Matt",
-            "Zen"
+            "Matt"
           ],
           "gameCount": 4,
           "cumSum": 18.01
@@ -3879,9 +3879,9 @@
             "David",
             "Aidan",
             "Bei",
+            "Bobby",
             "Juno",
-            "Matt",
-            "Zen"
+            "Matt"
           ],
           "gameCount": 3,
           "cumSum": -36.69
@@ -3891,8 +3891,8 @@
           "players": [
             "David",
             "Aidan",
-            "Juno",
-            "Zen"
+            "Bobby",
+            "Juno"
           ],
           "gameCount": 2,
           "cumSum": -70.0
@@ -3903,9 +3903,9 @@
             "David",
             "Aidan",
             "Alex",
+            "Bobby",
             "Juno",
-            "Matt",
-            "Zen"
+            "Matt"
           ],
           "gameCount": 2,
           "cumSum": -35.65
@@ -3914,9 +3914,9 @@
           "player": "David",
           "players": [
             "David",
+            "Bobby",
             "Juno",
-            "Matt",
-            "Zen"
+            "Matt"
           ],
           "gameCount": 1,
           "cumSum": -100.0
@@ -3927,9 +3927,9 @@
             "David",
             "Aidan",
             "Alex",
+            "Bobby",
             "Jayden",
-            "Juno",
-            "Zen"
+            "Juno"
           ],
           "gameCount": 1,
           "cumSum": 95.27
@@ -3940,9 +3940,9 @@
             "David",
             "Aidan",
             "Alex",
+            "Bobby",
             "Juno",
-            "Russell",
-            "Zen"
+            "Russell"
           ],
           "gameCount": 1,
           "cumSum": -80.0
@@ -3951,9 +3951,9 @@
           "player": "David",
           "players": [
             "David",
+            "Bobby",
             "Jayden",
-            "Juno",
-            "Zen"
+            "Juno"
           ],
           "gameCount": 1,
           "cumSum": 31.04
@@ -3963,10 +3963,10 @@
           "players": [
             "David",
             "Aidan",
+            "Bobby",
             "Josh",
             "Juno",
-            "Matt",
-            "Zen"
+            "Matt"
           ],
           "gameCount": 1,
           "cumSum": -12.0
@@ -3975,8 +3975,8 @@
           "player": "David",
           "players": [
             "David",
-            "Juno",
-            "Zen"
+            "Bobby",
+            "Juno"
           ],
           "gameCount": 1,
           "cumSum": -10.0
@@ -3986,8 +3986,8 @@
           "players": [
             "David",
             "Aidan",
-            "Matt",
-            "Zen"
+            "Bobby",
+            "Matt"
           ],
           "gameCount": 1,
           "cumSum": -10.0
@@ -3998,10 +3998,10 @@
             "David",
             "Aidan",
             "Bei",
+            "Bobby",
             "Juno",
             "Matt",
-            "Russell",
-            "Zen"
+            "Russell"
           ],
           "gameCount": 1,
           "cumSum": 9.08
@@ -4011,9 +4011,9 @@
           "players": [
             "David",
             "Aidan",
+            "Bobby",
             "James",
-            "Matt",
-            "Zen"
+            "Matt"
           ],
           "gameCount": 1,
           "cumSum": 3.14
@@ -4022,8 +4022,8 @@
           "player": "David",
           "players": [
             "David",
-            "Matt",
-            "Zen"
+            "Bobby",
+            "Matt"
           ],
           "gameCount": 1,
           "cumSum": 1.17
@@ -4262,8 +4262,8 @@
           "players": [
             "Juno",
             "Aidan",
-            "Matt",
-            "Zen"
+            "Bobby",
+            "Matt"
           ],
           "gameCount": 16,
           "cumSum": 157.84
@@ -4272,8 +4272,8 @@
           "player": "Juno",
           "players": [
             "Juno",
-            "Matt",
-            "Zen"
+            "Bobby",
+            "Matt"
           ],
           "gameCount": 16,
           "cumSum": -111.9
@@ -4283,7 +4283,7 @@
           "players": [
             "Juno",
             "Aidan",
-            "Zen"
+            "Bobby"
           ],
           "gameCount": 7,
           "cumSum": 34.31
@@ -4294,8 +4294,8 @@
             "Juno",
             "Aidan",
             "Bei",
-            "Matt",
-            "Zen"
+            "Bobby",
+            "Matt"
           ],
           "gameCount": 6,
           "cumSum": -258.6
@@ -4305,9 +4305,9 @@
           "players": [
             "Juno",
             "Aidan",
+            "Bobby",
             "David",
-            "Matt",
-            "Zen"
+            "Matt"
           ],
           "gameCount": 4,
           "cumSum": -39.34
@@ -4318,9 +4318,9 @@
             "Juno",
             "Aidan",
             "Bei",
+            "Bobby",
             "David",
-            "Matt",
-            "Zen"
+            "Matt"
           ],
           "gameCount": 3,
           "cumSum": 148.67
@@ -4329,7 +4329,7 @@
           "player": "Juno",
           "players": [
             "Juno",
-            "Zen"
+            "Bobby"
           ],
           "gameCount": 3,
           "cumSum": -6.6
@@ -4349,9 +4349,9 @@
             "Juno",
             "Aidan",
             "Alex",
+            "Bobby",
             "David",
-            "Matt",
-            "Zen"
+            "Matt"
           ],
           "gameCount": 2,
           "cumSum": -48.94
@@ -4362,7 +4362,7 @@
             "Juno",
             "Aidan",
             "Bei",
-            "Zen"
+            "Bobby"
           ],
           "gameCount": 2,
           "cumSum": -31.69
@@ -4372,8 +4372,8 @@
           "players": [
             "Juno",
             "Aidan",
-            "David",
-            "Zen"
+            "Bobby",
+            "David"
           ],
           "gameCount": 2,
           "cumSum": 13.14
@@ -4383,10 +4383,10 @@
           "players": [
             "Juno",
             "Aidan",
+            "Bobby",
             "Matt",
             "Parker",
-            "Russell",
-            "Zen"
+            "Russell"
           ],
           "gameCount": 1,
           "cumSum": -139.99
@@ -4397,9 +4397,9 @@
             "Juno",
             "Aidan",
             "Alex",
+            "Bobby",
             "David",
-            "Jayden",
-            "Zen"
+            "Jayden"
           ],
           "gameCount": 1,
           "cumSum": -130.0
@@ -4410,9 +4410,9 @@
             "Juno",
             "Aidan",
             "Alex",
+            "Bobby",
             "Jayden",
-            "Matt",
-            "Zen"
+            "Matt"
           ],
           "gameCount": 1,
           "cumSum": 111.7
@@ -4421,9 +4421,9 @@
           "player": "Juno",
           "players": [
             "Juno",
+            "Bobby",
             "David",
-            "Matt",
-            "Zen"
+            "Matt"
           ],
           "gameCount": 1,
           "cumSum": -97.04
@@ -4432,9 +4432,9 @@
           "player": "Juno",
           "players": [
             "Juno",
+            "Bobby",
             "Jayden",
-            "Matt",
-            "Zen"
+            "Matt"
           ],
           "gameCount": 1,
           "cumSum": -88.45
@@ -4443,9 +4443,9 @@
           "player": "Juno",
           "players": [
             "Juno",
+            "Bobby",
             "Matt",
-            "Parker",
-            "Zen"
+            "Parker"
           ],
           "gameCount": 1,
           "cumSum": -41.52
@@ -4455,10 +4455,10 @@
           "players": [
             "Juno",
             "Aidan",
+            "Bobby",
             "David",
             "Josh",
-            "Matt",
-            "Zen"
+            "Matt"
           ],
           "gameCount": 1,
           "cumSum": 33.17
@@ -4469,9 +4469,9 @@
             "Juno",
             "Aidan",
             "Alex",
+            "Bobby",
             "David",
-            "Russell",
-            "Zen"
+            "Russell"
           ],
           "gameCount": 1,
           "cumSum": -20.0
@@ -4481,9 +4481,9 @@
           "players": [
             "Juno",
             "Aidan",
+            "Bobby",
             "James",
-            "Matt",
-            "Zen"
+            "Matt"
           ],
           "gameCount": 1,
           "cumSum": 18.89
@@ -4493,8 +4493,8 @@
           "players": [
             "Juno",
             "Aidan",
-            "Shawn",
-            "Zen"
+            "Bobby",
+            "Shawn"
           ],
           "gameCount": 1,
           "cumSum": 16.1
@@ -4505,10 +4505,10 @@
             "Juno",
             "Aidan",
             "Bei",
+            "Bobby",
             "David",
             "Matt",
-            "Russell",
-            "Zen"
+            "Russell"
           ],
           "gameCount": 1,
           "cumSum": 12.57
@@ -4517,8 +4517,8 @@
           "player": "Juno",
           "players": [
             "Juno",
-            "David",
-            "Zen"
+            "Bobby",
+            "David"
           ],
           "gameCount": 1,
           "cumSum": -8.78
@@ -4529,7 +4529,7 @@
             "Juno",
             "Aidan",
             "Alex",
-            "Zen"
+            "Bobby"
           ],
           "gameCount": 1,
           "cumSum": -8.0
@@ -4538,9 +4538,9 @@
           "player": "Juno",
           "players": [
             "Juno",
+            "Bobby",
             "David",
-            "Jayden",
-            "Zen"
+            "Jayden"
           ],
           "gameCount": 1,
           "cumSum": -7.29
@@ -4551,8 +4551,8 @@
             "Juno",
             "Aidan",
             "Alex",
-            "Matt",
-            "Zen"
+            "Bobby",
+            "Matt"
           ],
           "gameCount": 1,
           "cumSum": 2.41
@@ -5315,7 +5315,7 @@
           "delta": 4.41
         },
         {
-          "player": "Zen",
+          "player": "Bobby",
           "buyin": 15.0,
           "buyout": 15.61,
           "delta": 0.61
@@ -5333,7 +5333,7 @@
       "date": "2022-08-16",
       "data": [
         {
-          "player": "Zen",
+          "player": "Bobby",
           "buyin": 10.0,
           "buyout": 28.01,
           "delta": 18.01
@@ -5375,7 +5375,7 @@
           "delta": 3.91
         },
         {
-          "player": "Zen",
+          "player": "Bobby",
           "buyin": 10.0,
           "buyout": 10.92,
           "delta": 0.92
@@ -5405,7 +5405,7 @@
           "delta": -8.22
         },
         {
-          "player": "Zen",
+          "player": "Bobby",
           "buyin": 43.21,
           "buyout": 33.35,
           "delta": -9.86
@@ -5417,7 +5417,7 @@
       "date": "2022-08-05",
       "data": [
         {
-          "player": "Zen",
+          "player": "Bobby",
           "buyin": 40.0,
           "buyout": 58.28,
           "delta": 18.28
@@ -5465,7 +5465,7 @@
           "delta": -1.34
         },
         {
-          "player": "Zen",
+          "player": "Bobby",
           "buyin": 30.0,
           "buyout": 11.85,
           "delta": -18.15
@@ -5489,7 +5489,7 @@
           "delta": 18.89
         },
         {
-          "player": "Zen",
+          "player": "Bobby",
           "buyin": 60.0,
           "buyout": 37.02,
           "delta": -22.98
@@ -5519,7 +5519,7 @@
           "delta": 3.14
         },
         {
-          "player": "Zen",
+          "player": "Bobby",
           "buyin": 25.0,
           "buyout": 24.85,
           "delta": -0.15
@@ -5555,7 +5555,7 @@
           "delta": -4.26
         },
         {
-          "player": "Zen",
+          "player": "Bobby",
           "buyin": 10.0,
           "buyout": 0.0,
           "delta": -10.0
@@ -5585,7 +5585,7 @@
           "delta": 3.14
         },
         {
-          "player": "Zen",
+          "player": "Bobby",
           "buyin": 54.0,
           "buyout": 36.69,
           "delta": -17.31
@@ -5615,7 +5615,7 @@
           "delta": 15.53
         },
         {
-          "player": "Zen",
+          "player": "Bobby",
           "buyin": 10.0,
           "buyout": 12.25,
           "delta": 2.25
@@ -5651,7 +5651,7 @@
           "delta": 0.95
         },
         {
-          "player": "Zen",
+          "player": "Bobby",
           "buyin": 20.0,
           "buyout": 15.4,
           "delta": -4.6
@@ -5681,7 +5681,7 @@
           "delta": 4.16
         },
         {
-          "player": "Zen",
+          "player": "Bobby",
           "buyin": 20.0,
           "buyout": 7.89,
           "delta": -12.11
@@ -5699,7 +5699,7 @@
           "delta": 27.82
         },
         {
-          "player": "Zen",
+          "player": "Bobby",
           "buyin": 15.0,
           "buyout": 33.29,
           "delta": 18.29
@@ -5735,7 +5735,7 @@
           "delta": -21.35
         },
         {
-          "player": "Zen",
+          "player": "Bobby",
           "buyin": 40.0,
           "buyout": 17.1,
           "delta": -22.9
@@ -5747,7 +5747,7 @@
       "date": "2022-06-26",
       "data": [
         {
-          "player": "Zen",
+          "player": "Bobby",
           "buyin": 15.0,
           "buyout": 31.75,
           "delta": 16.75
@@ -5789,7 +5789,7 @@
           "delta": 2.38
         },
         {
-          "player": "Zen",
+          "player": "Bobby",
           "buyin": 15.0,
           "buyout": 12.56,
           "delta": -2.44
@@ -5813,7 +5813,7 @@
           "delta": 204.35
         },
         {
-          "player": "Zen",
+          "player": "Bobby",
           "buyin": 75.0,
           "buyout": 67.69,
           "delta": -7.31
@@ -5837,7 +5837,7 @@
       "date": "2022-06-21",
       "data": [
         {
-          "player": "Zen",
+          "player": "Bobby",
           "buyin": 10.0,
           "buyout": 14.83,
           "delta": 4.83
@@ -5879,7 +5879,7 @@
           "delta": 33.31
         },
         {
-          "player": "Zen",
+          "player": "Bobby",
           "buyin": 77.43,
           "buyout": 73.82,
           "delta": -3.61
@@ -5909,7 +5909,7 @@
       "date": "2022-06-15",
       "data": [
         {
-          "player": "Zen",
+          "player": "Bobby",
           "buyin": 25.0,
           "buyout": 31.23,
           "delta": 6.23
@@ -5951,7 +5951,7 @@
           "delta": 0.81
         },
         {
-          "player": "Zen",
+          "player": "Bobby",
           "buyin": 30.0,
           "buyout": 28.2,
           "delta": -1.8
@@ -5975,7 +5975,7 @@
       "date": "2022-06-02",
       "data": [
         {
-          "player": "Zen",
+          "player": "Bobby",
           "buyin": 20.0,
           "buyout": 49.18,
           "delta": 29.18
@@ -6011,7 +6011,7 @@
       "date": "2022-05-26",
       "data": [
         {
-          "player": "Zen",
+          "player": "Bobby",
           "buyin": 20.0,
           "buyout": 74.01,
           "delta": 54.01
@@ -6041,7 +6041,7 @@
       "date": "2022-05-23",
       "data": [
         {
-          "player": "Zen",
+          "player": "Bobby",
           "buyin": 20.0,
           "buyout": 61.65,
           "delta": 41.65
@@ -6089,7 +6089,7 @@
           "delta": 30.64
         },
         {
-          "player": "Zen",
+          "player": "Bobby",
           "buyin": 46.53,
           "buyout": 46.34,
           "delta": -0.19
@@ -6125,7 +6125,7 @@
           "delta": 20.59
         },
         {
-          "player": "Zen",
+          "player": "Bobby",
           "buyin": 20.0,
           "buyout": 22.5,
           "delta": 2.5
@@ -6155,7 +6155,7 @@
           "delta": 94.9
         },
         {
-          "player": "Zen",
+          "player": "Bobby",
           "buyin": 20.0,
           "buyout": 33.55,
           "delta": 13.55
@@ -6197,7 +6197,7 @@
       "date": "2022-05-07",
       "data": [
         {
-          "player": "Zen",
+          "player": "Bobby",
           "buyin": 20.0,
           "buyout": 40.56,
           "delta": 20.56
@@ -6227,7 +6227,7 @@
           "delta": 15.25
         },
         {
-          "player": "Zen",
+          "player": "Bobby",
           "buyin": 20.0,
           "buyout": 24.82,
           "delta": 4.82
@@ -6275,7 +6275,7 @@
           "delta": 9.64
         },
         {
-          "player": "Zen",
+          "player": "Bobby",
           "buyin": 30.0,
           "buyout": 27.05,
           "delta": -2.95
@@ -6293,7 +6293,7 @@
       "date": "2022-05-03",
       "data": [
         {
-          "player": "Zen",
+          "player": "Bobby",
           "buyin": 10.0,
           "buyout": 17.42,
           "delta": 7.42
@@ -6317,7 +6317,7 @@
       "date": "2022-05-01",
       "data": [
         {
-          "player": "Zen",
+          "player": "Bobby",
           "buyin": 10.0,
           "buyout": 19.66,
           "delta": 9.66
@@ -6353,7 +6353,7 @@
           "delta": 29.69
         },
         {
-          "player": "Zen",
+          "player": "Bobby",
           "buyin": 10.0,
           "buyout": 10.61,
           "delta": 0.61
@@ -6383,7 +6383,7 @@
           "delta": 6.4
         },
         {
-          "player": "Zen",
+          "player": "Bobby",
           "buyin": 10.0,
           "buyout": 5.69,
           "delta": -4.31
@@ -6413,7 +6413,7 @@
           "delta": -4.22
         },
         {
-          "player": "Zen",
+          "player": "Bobby",
           "buyin": 60.0,
           "buyout": 54.83,
           "delta": -5.17
@@ -6455,7 +6455,7 @@
       "date": "2022-04-22",
       "data": [
         {
-          "player": "Zen",
+          "player": "Bobby",
           "buyin": 60.0,
           "buyout": 68.87,
           "delta": 8.87
@@ -6491,7 +6491,7 @@
           "delta": -3.17
         },
         {
-          "player": "Zen",
+          "player": "Bobby",
           "buyin": 60.0,
           "buyout": 41.92,
           "delta": -18.08
@@ -6503,7 +6503,7 @@
       "date": "2022-04-19",
       "data": [
         {
-          "player": "Zen",
+          "player": "Bobby",
           "buyin": 20.0,
           "buyout": 38.84,
           "delta": 18.84
@@ -6533,7 +6533,7 @@
           "delta": 33.17
         },
         {
-          "player": "Zen",
+          "player": "Bobby",
           "buyin": 20.0,
           "buyout": 40.69,
           "delta": 20.69
@@ -6575,7 +6575,7 @@
           "delta": 0.28
         },
         {
-          "player": "Zen",
+          "player": "Bobby",
           "buyin": 20.0,
           "buyout": 20.07,
           "delta": 0.07
@@ -6611,7 +6611,7 @@
           "delta": -15.53
         },
         {
-          "player": "Zen",
+          "player": "Bobby",
           "buyin": 40.43,
           "buyout": 0.0,
           "delta": -40.43
@@ -6641,7 +6641,7 @@
           "delta": -41.0
         },
         {
-          "player": "Zen",
+          "player": "Bobby",
           "buyin": 80.0,
           "buyout": 14.29,
           "delta": -65.71
@@ -6653,7 +6653,7 @@
       "date": "2022-04-09",
       "data": [
         {
-          "player": "Zen",
+          "player": "Bobby",
           "buyin": 10.0,
           "buyout": 15.62,
           "delta": 5.62
@@ -6689,7 +6689,7 @@
           "delta": 1.53
         },
         {
-          "player": "Zen",
+          "player": "Bobby",
           "buyin": 20.0,
           "buyout": 13.92,
           "delta": -6.08
@@ -6707,7 +6707,7 @@
           "delta": 10.0
         },
         {
-          "player": "Zen",
+          "player": "Bobby",
           "buyin": 40.0,
           "buyout": 47.83,
           "delta": 7.83
@@ -6749,7 +6749,7 @@
           "delta": 12.57
         },
         {
-          "player": "Zen",
+          "player": "Bobby",
           "buyin": 40.0,
           "buyout": 52.11,
           "delta": 12.11
@@ -6803,7 +6803,7 @@
           "delta": 66.41
         },
         {
-          "player": "Zen",
+          "player": "Bobby",
           "buyin": 30.0,
           "buyout": 40.47,
           "delta": 10.47
@@ -6839,7 +6839,7 @@
           "delta": 27.84
         },
         {
-          "player": "Zen",
+          "player": "Bobby",
           "buyin": 20.0,
           "buyout": 43.59,
           "delta": 23.59
@@ -6881,7 +6881,7 @@
           "delta": 28.43
         },
         {
-          "player": "Zen",
+          "player": "Bobby",
           "buyin": 100.0,
           "buyout": 78.05,
           "delta": -21.95
@@ -6911,7 +6911,7 @@
           "delta": 8.7
         },
         {
-          "player": "Zen",
+          "player": "Bobby",
           "buyin": 80.0,
           "buyout": 52.9,
           "delta": -27.1
@@ -6941,7 +6941,7 @@
           "delta": -11.92
         },
         {
-          "player": "Zen",
+          "player": "Bobby",
           "buyin": 60.0,
           "buyout": 41.77,
           "delta": -18.23
@@ -6965,7 +6965,7 @@
           "delta": 17.45
         },
         {
-          "player": "Zen",
+          "player": "Bobby",
           "buyin": 10.0,
           "buyout": 12.55,
           "delta": 2.55
@@ -6989,7 +6989,7 @@
           "delta": 5.33
         },
         {
-          "player": "Zen",
+          "player": "Bobby",
           "buyin": 5.0,
           "buyout": 9.67,
           "delta": 4.67
@@ -7007,7 +7007,7 @@
       "date": "2022-03-02",
       "data": [
         {
-          "player": "Zen",
+          "player": "Bobby",
           "buyin": 15.0,
           "buyout": 22.99,
           "delta": 7.99
@@ -7049,7 +7049,7 @@
           "delta": -25.1
         },
         {
-          "player": "Zen",
+          "player": "Bobby",
           "buyin": 60.0,
           "buyout": 31.05,
           "delta": -28.95
@@ -7067,7 +7067,7 @@
           "delta": 2.0
         },
         {
-          "player": "Zen",
+          "player": "Bobby",
           "buyin": 2.0,
           "buyout": 0.0,
           "delta": -2.0
@@ -7085,7 +7085,7 @@
           "delta": 49.37
         },
         {
-          "player": "Zen",
+          "player": "Bobby",
           "buyin": 40.0,
           "buyout": 64.75,
           "delta": 24.75
@@ -7115,7 +7115,7 @@
       "date": "2022-02-17",
       "data": [
         {
-          "player": "Zen",
+          "player": "Bobby",
           "buyin": 20.0,
           "buyout": 44.63,
           "delta": 24.63
@@ -7151,7 +7151,7 @@
           "delta": 27.6
         },
         {
-          "player": "Zen",
+          "player": "Bobby",
           "buyin": 40.0,
           "buyout": 12.72,
           "delta": -27.28
@@ -7169,7 +7169,7 @@
       "date": "2022-02-15",
       "data": [
         {
-          "player": "Zen",
+          "player": "Bobby",
           "buyin": 20.0,
           "buyout": 66.4,
           "delta": 46.4
@@ -7205,7 +7205,7 @@
           "delta": 3.0
         },
         {
-          "player": "Zen",
+          "player": "Bobby",
           "buyin": 3.0,
           "buyout": 0.0,
           "delta": -3.0
@@ -7217,7 +7217,7 @@
       "date": "2022-02-13",
       "data": [
         {
-          "player": "Zen",
+          "player": "Bobby",
           "buyin": 10.0,
           "buyout": 30.95,
           "delta": 20.95
@@ -7247,7 +7247,7 @@
           "delta": 15.23
         },
         {
-          "player": "Zen",
+          "player": "Bobby",
           "buyin": 30.0,
           "buyout": 24.87,
           "delta": -5.13
@@ -7265,7 +7265,7 @@
       "date": "2022-02-10",
       "data": [
         {
-          "player": "Zen",
+          "player": "Bobby",
           "buyin": 10.0,
           "buyout": 20.0,
           "delta": 10.0
@@ -7283,7 +7283,7 @@
       "date": "2022-02-05",
       "data": [
         {
-          "player": "Zen",
+          "player": "Bobby",
           "buyin": 20.0,
           "buyout": 44.7,
           "delta": 24.7
@@ -7319,7 +7319,7 @@
           "delta": 8.65
         },
         {
-          "player": "Zen",
+          "player": "Bobby",
           "buyin": 20.0,
           "buyout": 13.48,
           "delta": -6.52
@@ -7337,7 +7337,7 @@
       "date": "2022-01-26",
       "data": [
         {
-          "player": "Zen",
+          "player": "Bobby",
           "buyin": 10.0,
           "buyout": 52.02,
           "delta": 42.02
@@ -7379,7 +7379,7 @@
           "delta": 12.23
         },
         {
-          "player": "Zen",
+          "player": "Bobby",
           "buyin": 20.0,
           "buyout": 30.98,
           "delta": 10.98
@@ -7409,7 +7409,7 @@
           "delta": 5.82
         },
         {
-          "player": "Zen",
+          "player": "Bobby",
           "buyin": 30.0,
           "buyout": 27.99,
           "delta": -2.01
@@ -7439,7 +7439,7 @@
           "delta": -4.6
         },
         {
-          "player": "Zen",
+          "player": "Bobby",
           "buyin": 20.0,
           "buyout": 15.1,
           "delta": -4.9
@@ -7457,7 +7457,7 @@
           "delta": 67.4
         },
         {
-          "player": "Zen",
+          "player": "Bobby",
           "buyin": 100.0,
           "buyout": 32.6,
           "delta": -67.4
@@ -7481,7 +7481,7 @@
           "delta": -6.9
         },
         {
-          "player": "Zen",
+          "player": "Bobby",
           "buyin": 20.0,
           "buyout": 0.0,
           "delta": -20.0
@@ -7505,7 +7505,7 @@
           "delta": 1.44
         },
         {
-          "player": "Zen",
+          "player": "Bobby",
           "buyin": 20.0,
           "buyout": 15.3,
           "delta": -4.7
@@ -7523,7 +7523,7 @@
           "delta": 31.04
         },
         {
-          "player": "Zen",
+          "player": "Bobby",
           "buyin": 20.0,
           "buyout": 17.8,
           "delta": -2.2
@@ -7553,7 +7553,7 @@
           "delta": 0.4
         },
         {
-          "player": "Zen",
+          "player": "Bobby",
           "buyin": 80.0,
           "buyout": 79.6,
           "delta": -0.4
@@ -7577,7 +7577,7 @@
           "delta": 45.62
         },
         {
-          "player": "Zen",
+          "player": "Bobby",
           "buyin": 100.0,
           "buyout": 64.37,
           "delta": -35.63
@@ -7619,7 +7619,7 @@
           "delta": 9.85
         },
         {
-          "player": "Zen",
+          "player": "Bobby",
           "buyin": 20.22,
           "buyout": 16.64,
           "delta": -3.58
@@ -7655,7 +7655,7 @@
           "delta": 0.4
         },
         {
-          "player": "Zen",
+          "player": "Bobby",
           "buyin": 22.0,
           "buyout": 14.3,
           "delta": -7.7
@@ -7685,7 +7685,7 @@
           "delta": 9.23
         },
         {
-          "player": "Zen",
+          "player": "Bobby",
           "buyin": 42.0,
           "buyout": 40.33,
           "delta": -1.67
@@ -7727,7 +7727,7 @@
           "delta": 5.35
         },
         {
-          "player": "Zen",
+          "player": "Bobby",
           "buyin": 47.09,
           "buyout": 49.84,
           "delta": 2.75
@@ -7775,7 +7775,7 @@
           "delta": -41.0
         },
         {
-          "player": "Zen",
+          "player": "Bobby",
           "buyin": 125.76,
           "buyout": 34.38,
           "delta": -91.38
@@ -7793,7 +7793,7 @@
           "delta": 10.73
         },
         {
-          "player": "Zen",
+          "player": "Bobby",
           "buyin": 30.0,
           "buyout": 30.66,
           "delta": 0.66
@@ -7817,7 +7817,7 @@
       "date": "2021-12-21",
       "data": [
         {
-          "player": "Zen",
+          "player": "Bobby",
           "buyin": 20.0,
           "buyout": 38.78,
           "delta": 18.78
@@ -7853,7 +7853,7 @@
           "delta": 29.8
         },
         {
-          "player": "Zen",
+          "player": "Bobby",
           "buyin": 50.0,
           "buyout": 73.13,
           "delta": 23.13
@@ -7883,7 +7883,7 @@
       "date": "2021-10-01",
       "data": [
         {
-          "player": "Zen",
+          "player": "Bobby",
           "buyin": 2.0,
           "buyout": 117.0,
           "delta": 115.0
@@ -7925,7 +7925,7 @@
       "date": "2021-09-30",
       "data": [
         {
-          "player": "Zen",
+          "player": "Bobby",
           "buyin": 4.0,
           "buyout": 18.25,
           "delta": 14.25
