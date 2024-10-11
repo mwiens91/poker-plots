@@ -3,7 +3,7 @@
 import { writeFile } from "fs";
 import { minify } from "html-minifier";
 import * as pug from "pug";
-import data from "../data/data.json" assert { type: "json" };
+import data from "../data/data.json" with { type: "json" };
 
 // File to write to
 const filepath = "../index.html";
