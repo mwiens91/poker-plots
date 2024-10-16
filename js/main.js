@@ -18,18 +18,18 @@ const redrawLinePlot = drawLinePlot(data, "line-plot-parent", linePlotMargin);
 const redrawBoxPlot = drawBoxPlot(
   data.players,
   "box-plot-parent",
-  boxPlotMargin
+  boxPlotMargin,
 );
 
 const redrawWinnerPiePlot = drawPiePlot(
   data.players.filter((x) => x.cumSum > 0),
   "winner-pie-chart-parent",
-  piePlotMargin
+  piePlotMargin,
 );
 const redrawLoserPiePlot = drawPiePlot(
   data.players.filter((x) => x.cumSum < 0),
   "loser-pie-chart-parent",
-  piePlotMargin
+  piePlotMargin,
 );
 
 drawCalendar(data, "calendar-parent");
@@ -43,7 +43,7 @@ const alertBoxElement = document.getElementById("alert-box");
 const pageUpCircleElement = document.getElementById("page-up-circle");
 
 const pageUpCircleNormalTopMargin = parseInt(
-  getComputedStyle(pageUpCircleElement).marginTop.slice(0, -2)
+  getComputedStyle(pageUpCircleElement).marginTop.slice(0, -2),
 );
 
 const narrowViewportHandle = (windowWidth) => {
@@ -130,7 +130,7 @@ const observer = new IntersectionObserver(
       circleElement.style.display = "none";
     }
   },
-  { rootMargin: "0px 0px -100% 0px", threshold: [0] }
+  { rootMargin: "0px 0px -100% 0px", threshold: [0] },
 );
 
 observer.observe(document.getElementById("page-up-circle-trigger"));

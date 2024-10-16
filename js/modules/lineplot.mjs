@@ -41,9 +41,9 @@ const drawLinePlot = (data, divId, margin) => {
     Math.max(
       Math.min(
         Math.floor(document.documentElement.clientHeight / 100) * 100 - 220,
-        maxWidthHeightFactor * width
+        maxWidthHeightFactor * width,
       ),
-      minWidthHeightFactor * width
+      minWidthHeightFactor * width,
     );
 
   // Whether to show time series or to show game data in a (non-time)
@@ -110,7 +110,7 @@ const drawLinePlot = (data, divId, margin) => {
       playersNew.forEach((player) =>
         player.data
           .find((game) => game.id === gameIdsWithDate[j])
-          ?.date.setHours(player.data[j].date.getHours() + hoursOffset)
+          ?.date.setHours(player.data[j].date.getHours() + hoursOffset),
       );
     }
 
@@ -183,7 +183,8 @@ const drawLinePlot = (data, divId, margin) => {
 
   const maxZoomTimeSeries = Math.max(
     1,
-    (maxDate.getTime() - minDate.getTime()) / (maxDaysToShow * 1000 * 3600 * 24)
+    (maxDate.getTime() - minDate.getTime()) /
+      (maxDaysToShow * 1000 * 3600 * 24),
   );
   const maxZoomSerialized = Math.max(1, (maxGameId - 1) / maxGamesToShow);
 
@@ -263,11 +264,11 @@ const drawLinePlot = (data, divId, margin) => {
   const adjustInfoBarPlayer = (player) => {
     infoBarAvatarDivElement.style(
       "background",
-      "rgb(" + player.colourRgb.map((x) => x + (255 - x) * 0.17) + ")"
+      "rgb(" + player.colourRgb.map((x) => x + (255 - x) * 0.17) + ")",
     );
     infoBarPlayerDivElement.style(
       "background",
-      "rgb(" + player.colourRgb.map((x) => x + (255 - x) * 0.4) + ")"
+      "rgb(" + player.colourRgb.map((x) => x + (255 - x) * 0.4) + ")",
     );
     infoBarAvatarElement.attr("src", player.avatar);
     infoBarPlayerTitleElement.text(player.name);
@@ -277,7 +278,7 @@ const drawLinePlot = (data, divId, margin) => {
   // Add mouseover events for legend avatar circles
   for (const player of playersNew) {
     const legendElement = document.getElementById(
-      "legend-icon-div-" + player.name
+      "legend-icon-div-" + player.name,
     );
 
     legendElement.addEventListener("mouseover", () => {
@@ -317,7 +318,7 @@ const drawLinePlot = (data, divId, margin) => {
     .scaleExtent(
       useTimeSeries
         ? [minZoomTimeSeries, maxZoomTimeSeries]
-        : [minZoomSerialized, maxZoomSerialized]
+        : [minZoomSerialized, maxZoomSerialized],
     )
     .on("zoom", zoomed);
 
@@ -479,7 +480,7 @@ const drawLinePlot = (data, divId, margin) => {
 
         infoBarGameDivElement.style(
           "background",
-          "rgb(" + player.colourRgb.map((x) => x + (255 - x) * 0.8) + ")"
+          "rgb(" + player.colourRgb.map((x) => x + (255 - x) * 0.8) + ")",
         );
         infoBarGameTitleElement.text(
           d.date.toLocaleDateString("en-US", {
@@ -488,7 +489,7 @@ const drawLinePlot = (data, divId, margin) => {
             year: "numeric",
             month: "long",
             day: "numeric",
-          })
+          }),
         );
         infoBarGameInfoElement.html(
           "Σ=" +
@@ -498,7 +499,7 @@ const drawLinePlot = (data, divId, margin) => {
             "&nbsp;&nbsp; ↧" +
             parseCurrency.format(d.buyin) +
             "&nbsp;&nbsp; ↥" +
-            parseCurrency.format(d.buyout)
+            parseCurrency.format(d.buyout),
         );
       })
       .on("mouseout", (event) => {

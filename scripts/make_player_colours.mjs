@@ -57,7 +57,7 @@ fs.readdirSync(rawDataDirPath).forEach((file) => {
 // Get the player names in order of cumulative sum (descending)
 const playerNames = Object.keys(playersWithCumSum);
 playerNames.sort((a, b) =>
-  playersWithCumSum[a] > playersWithCumSum[b] ? -1 : 1
+  playersWithCumSum[a] > playersWithCumSum[b] ? -1 : 1,
 );
 
 const numPlayers = playerNames.length;
@@ -68,14 +68,14 @@ const paletteHex = iwanthue(numPlayers, {
   quality: 100,
 });
 const paletteRgb = paletteHex.map((x) =>
-  hexRgb(x, { format: "array" }).slice(0, -1)
+  hexRgb(x, { format: "array" }).slice(0, -1),
 );
 
 const playerColoursHex = Object.fromEntries(
-  paletteHex.map((x, i) => [playerNames[i], x])
+  paletteHex.map((x, i) => [playerNames[i], x]),
 );
 const playerColoursRgb = Object.fromEntries(
-  paletteRgb.map((x, i) => [playerNames[i], x])
+  paletteRgb.map((x, i) => [playerNames[i], x]),
 );
 
 // Insert the colour data into the make_data script
@@ -93,13 +93,13 @@ const getAwkScript = (isHex) =>
 
 exec(
   `awk -v x='${coloursHexReplacement}' '${getAwkScript(
-    true
-  )}' make_data.py > temp.py`
+    true,
+  )}' make_data.py > temp.py`,
 );
 exec(
   `awk -v x='${coloursRgbReplacement}' '${getAwkScript(
-    false
-  )}' temp.py > make_data.py`
+    false,
+  )}' temp.py > make_data.py`,
 );
 exec("rm temp.py");
 

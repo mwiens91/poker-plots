@@ -27,9 +27,9 @@ const drawBoxPlot = (playerData, divId, margin) => {
     Math.max(
       Math.min(
         Math.floor(document.documentElement.clientHeight / 100) * 100 - 200,
-        maxWidthHeightFactor * width
+        maxWidthHeightFactor * width,
       ),
-      minWidthHeightFactor * width
+      minWidthHeightFactor * width,
     );
 
   // Scale the boxplot boxes' width based on viewport width. Note that
@@ -50,7 +50,7 @@ const drawBoxPlot = (playerData, divId, margin) => {
 
   // Get relevant stats from data
   let filteredPlayers = playerData.filter(
-    (player) => player.data.length >= minNumberGames
+    (player) => player.data.length >= minNumberGames,
   );
 
   if (filteredPlayers.length === 0) {
@@ -101,9 +101,9 @@ const drawBoxPlot = (playerData, divId, margin) => {
               ...player.outliers.map((x) => x.value),
               ...player.range,
             ])
-            .flat()
+            .flat(),
         )
-        .map((x) => 1.05 * x)
+        .map((x) => 1.05 * x),
     )
     .range([height - margin.bottom, margin.top]);
 
@@ -168,14 +168,14 @@ const drawBoxPlot = (playerData, divId, margin) => {
           '<span class="font-tabular-numbers tooltip-boxplot-second-item">' +
           q0Str +
           "</span>" +
-          "</div>"
+          "</div>",
       );
   };
   const tooltipOutlierMouseover = (event, d) =>
     tooltip
       .style("opacity", 0.8)
       .html(
-        `<b>${d.name}</b><br>` + `outlier: ${parseCurrency.format(d.value)}`
+        `<b>${d.name}</b><br>` + `outlier: ${parseCurrency.format(d.value)}`,
       );
 
   // Function to draw plot
@@ -238,7 +238,7 @@ const drawBoxPlot = (playerData, divId, margin) => {
         (d) => `
       M${xScale(d.name)}, ${yScale(d.range[1])}
       V${yScale(d.quartiles[2])}
-      `
+      `,
       )
       .attr("stroke", "black")
       .on("mouseover", tooltipNormalMouseover)
@@ -255,7 +255,7 @@ const drawBoxPlot = (playerData, divId, margin) => {
         (d) => `
       M${xScale(d.name)}, ${yScale(d.quartiles[0])}
       V${yScale(d.range[0])}
-      `
+      `,
       )
       .attr("stroke", "black")
       .on("mouseover", tooltipNormalMouseover)
@@ -277,7 +277,7 @@ const drawBoxPlot = (playerData, divId, margin) => {
         V${yScale(d.quartiles[0])}
         H${xScale(d.name) + halfBoxWidth}
         Z
-      `
+      `,
       )
       .style("opacity", 0.8)
       .on("mouseover", tooltipNormalMouseover)
@@ -296,7 +296,7 @@ const drawBoxPlot = (playerData, divId, margin) => {
         (d) => `
         M${xScale(d.name) + halfBoxWidth},${yScale(d.quartiles[1])}
         H${xScale(d.name) - halfBoxWidth}
-      `
+      `,
       )
       .on("mouseover", tooltipNormalMouseover)
       .on("mousemove", tooltipMousemove)
@@ -314,7 +314,7 @@ const drawBoxPlot = (playerData, divId, margin) => {
         (d) => `
         M${xScale(d.name) + halfBoxWidth / 3},${yScale(d.range[1])}
         H${xScale(d.name) - halfBoxWidth / 3}
-      `
+      `,
       )
       .on("mouseover", tooltipNormalMouseover)
       .on("mousemove", tooltipMousemove)
@@ -330,7 +330,7 @@ const drawBoxPlot = (playerData, divId, margin) => {
         (d) => `
         M${xScale(d.name) + halfBoxWidth / 3},${yScale(d.range[0])}
         H${xScale(d.name) - halfBoxWidth / 3}
-      `
+      `,
       )
       .on("mouseover", tooltipNormalMouseover)
       .on("mousemove", tooltipMousemove)

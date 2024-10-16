@@ -41,9 +41,9 @@ const drawCalendar = (data, divId) => {
           totOuter +
           game.data.reduce(
             (totInner, y) => totInner + Math.abs(x.delta - y.delta),
-            0
+            0,
           ),
-        0
+        0,
       ) / Math.pow(game.data.length, 2),
     id: game.id,
   }));
@@ -102,11 +102,11 @@ const drawCalendar = (data, divId) => {
   // Get all dates to add in
   const firstYearAddInDates = d3.utcDays(
     new Date(Date.UTC(newData[newData.length - 1].date.getFullYear(), 0, 1)),
-    newData[newData.length - 1].date
+    newData[newData.length - 1].date,
   );
   const lastYearAddInDates = d3.utcDays(
     newData[0].date,
-    new Date(Date.UTC(newData[0].date.getFullYear() + 1, 0, 1))
+    new Date(Date.UTC(newData[0].date.getFullYear() + 1, 0, 1)),
   );
   lastYearAddInDates.shift();
 
@@ -177,11 +177,11 @@ const drawCalendar = (data, divId) => {
         (newData[d].id === null
           ? "no game"
           : `total buy-ins: ${parseCurrency.format(
-              newData[d].totalBuyins
+              newData[d].totalBuyins,
             )}<br>` +
             `deltas AAD: ${parseCurrency.format(newData[d].deltasAad)}` +
             "<br>" +
-            `deltas GMD: ${parseCurrency.format(newData[d].deltasGmd)}`)
+            `deltas GMD: ${parseCurrency.format(newData[d].deltasGmd)}`),
     );
 
   // svg stuff
@@ -201,7 +201,7 @@ const drawCalendar = (data, divId) => {
     .join("g")
     .attr(
       "transform",
-      (d, i) => `translate(40.5,${yearHeight * i + cellSize * 1.5})`
+      (d, i) => `translate(40.5,${yearHeight * i + cellSize * 1.5})`,
     );
 
   // Bolded year text
@@ -235,7 +235,7 @@ const drawCalendar = (data, divId) => {
     .attr("height", cellSize - 1)
     .attr(
       "x",
-      (i) => d3.utcSunday.count(d3.utcYear(X[i]), X[i]) * cellSize + 0.5
+      (i) => d3.utcSunday.count(d3.utcYear(X[i]), X[i]) * cellSize + 0.5,
     )
     .attr("y", (i) => X[i].getUTCDay() * cellSize + 0.5)
     .attr("fill", (i) => colour(Y[i]))
@@ -279,7 +279,7 @@ const drawCalendar = (data, divId) => {
     .attr(
       "x",
       (d) =>
-        d3.utcSunday.count(d3.utcYear(d), d3.utcSunday.ceil(d)) * cellSize + 2
+        d3.utcSunday.count(d3.utcYear(d), d3.utcSunday.ceil(d)) * cellSize + 2,
     )
     .attr("y", -5)
     .text(formatMonth);

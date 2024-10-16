@@ -24,7 +24,7 @@ const drawPiePlot = (playerData, divId, margin) => {
   // Compute total cumulative sums (for tooltip)
   const cumSumTotal = playerData.reduce(
     (tot, player) => tot + player.cumSum,
-    0
+    0,
   );
 
   // Tooltip stuff
@@ -47,7 +47,7 @@ const drawPiePlot = (playerData, divId, margin) => {
           `cumulative sum: ${parseCurrency.format(d.data.cumSum)}<br>` +
           `percent total ${d.data.cumSum > 0 ? "winnings" : "losses"}: ${
             Math.round((d.data.cumSum / cumSumTotal) * 100 * 10) / 10
-          }%`
+          }%`,
       );
 
   // Width
@@ -63,7 +63,7 @@ const drawPiePlot = (playerData, divId, margin) => {
       width / 2 - margin.left,
       width / 2 - margin.right,
       width / 2 - margin.top,
-      width / 2 - margin.bottom
+      width / 2 - margin.bottom,
     );
     const height = maxRadius * 2;
 

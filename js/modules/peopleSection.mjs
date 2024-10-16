@@ -14,50 +14,50 @@ const initializePeopleSection = (data) => {
   // Get the elements for the people section
   const peopleAvatarElement = document.getElementById("people-body-avatar");
   const peoplePlayerTitleNameElement = document.getElementById(
-    "people-body-player-title-name"
+    "people-body-player-title-name",
   );
   const peoplePlayerTitleDividerElement = document.getElementById(
-    "people-body-player-title-divider"
+    "people-body-player-title-divider",
   );
   const peoplePlayerTitleCumsumElement = document.getElementById(
-    "people-body-player-title-cumsum"
+    "people-body-player-title-cumsum",
   );
   const peopleHrElement = document.getElementById("people-body-hr");
   const peopleGamesPlayedElement = document.getElementById(
-    "people-body-games-played"
+    "people-body-games-played",
   );
   const peopleTotalMoneyWonElement = document.getElementById(
-    "people-body-total-money-won"
+    "people-body-total-money-won",
   );
   const peopleTotalMoneyLostElement = document.getElementById(
-    "people-body-total-money-lost"
+    "people-body-total-money-lost",
   );
   const peopleMostMoneyWonConsecutiveMainElement = document.getElementById(
-    "people-body-most-money-won-consecutive-main"
+    "people-body-most-money-won-consecutive-main",
   );
   const peopleMostMoneyWonConsecutiveSubElement = document.getElementById(
-    "people-body-most-money-won-consecutive-sub"
+    "people-body-most-money-won-consecutive-sub",
   );
   const peopleMostMoneyLostConsecutiveMainElement = document.getElementById(
-    "people-body-most-money-lost-consecutive-main"
+    "people-body-most-money-lost-consecutive-main",
   );
   const peopleMostMoneyLostConsecutiveSubElement = document.getElementById(
-    "people-body-most-money-lost-consecutive-sub"
+    "people-body-most-money-lost-consecutive-sub",
   );
   const peopleMostMoneyWonSingleMainElement = document.getElementById(
-    "people-body-most-money-won-single-main"
+    "people-body-most-money-won-single-main",
   );
   const peopleMostMoneyWonSingleSubElement = document.getElementById(
-    "people-body-most-money-won-single-sub"
+    "people-body-most-money-won-single-sub",
   );
   const peopleMostMoneyLostSingleMainElement = document.getElementById(
-    "people-body-most-money-lost-single-main"
+    "people-body-most-money-lost-single-main",
   );
   const peopleMostMoneyLostSingleSubElement = document.getElementById(
-    "people-body-most-money-lost-single-sub"
+    "people-body-most-money-lost-single-sub",
   );
   const peopleMatchupsDivElement = document.getElementById(
-    "people-matchups-div"
+    "people-matchups-div",
   );
 
   // Function to adjust the above elements to a specific player
@@ -67,15 +67,15 @@ const initializePeopleSection = (data) => {
     peoplePlayerTitleNameElement.textContent = player.name;
     peoplePlayerTitleDividerElement.style.color = player.colourHex;
     peoplePlayerTitleCumsumElement.textContent = parseCurrency.format(
-      player.cumSum
+      player.cumSum,
     );
     peopleHrElement.style.backgroundColor = player.colourHex;
     peopleGamesPlayedElement.textContent = player.gameCount;
     peopleTotalMoneyWonElement.textContent = parseCurrency.format(
-      player.stats["total-money-won"]
+      player.stats["total-money-won"],
     );
     peopleTotalMoneyLostElement.textContent = parseCurrency.format(
-      player.stats["total-money-lost"]
+      player.stats["total-money-lost"],
     );
 
     if (player.stats["largest-winning-streak"] === null) {
@@ -89,7 +89,7 @@ const initializePeopleSection = (data) => {
         "on " +
         data.games.find(
           (x) =>
-            x.id === player.stats["largest-winning-streak"]["start-game-id"]
+            x.id === player.stats["largest-winning-streak"]["start-game-id"],
         ).date +
         " (1 game)";
     } else {
@@ -99,11 +99,11 @@ const initializePeopleSection = (data) => {
         "on " +
         data.games.find(
           (x) =>
-            x.id === player.stats["largest-winning-streak"]["start-game-id"]
+            x.id === player.stats["largest-winning-streak"]["start-game-id"],
         ).date +
         " through " +
         data.games.find(
-          (x) => x.id === player.stats["largest-winning-streak"]["end-game-id"]
+          (x) => x.id === player.stats["largest-winning-streak"]["end-game-id"],
         ).date +
         " (" +
         player.stats["largest-winning-streak"]["num-games"] +
@@ -120,7 +120,8 @@ const initializePeopleSection = (data) => {
       peopleMostMoneyLostConsecutiveSubElement.textContent =
         "on " +
         data.games.find(
-          (x) => x.id === player.stats["largest-losing-streak"]["start-game-id"]
+          (x) =>
+            x.id === player.stats["largest-losing-streak"]["start-game-id"],
         ).date +
         " (1 game)";
     } else {
@@ -129,11 +130,12 @@ const initializePeopleSection = (data) => {
       peopleMostMoneyLostConsecutiveSubElement.textContent =
         "on " +
         data.games.find(
-          (x) => x.id === player.stats["largest-losing-streak"]["start-game-id"]
+          (x) =>
+            x.id === player.stats["largest-losing-streak"]["start-game-id"],
         ).date +
         " through " +
         data.games.find(
-          (x) => x.id === player.stats["largest-losing-streak"]["end-game-id"]
+          (x) => x.id === player.stats["largest-losing-streak"]["end-game-id"],
         ).date +
         " (" +
         player.stats["largest-losing-streak"]["num-games"] +
@@ -146,12 +148,12 @@ const initializePeopleSection = (data) => {
         player.name + " has never won a game";
     } else {
       peopleMostMoneyWonSingleMainElement.textContent = parseCurrency.format(
-        player.stats["most-won-in-single-game"].total
+        player.stats["most-won-in-single-game"].total,
       );
       peopleMostMoneyWonSingleSubElement.textContent =
         "on " +
         data.games.find(
-          (x) => x.id === player.stats["most-won-in-single-game"]["game-id"]
+          (x) => x.id === player.stats["most-won-in-single-game"]["game-id"],
         ).date;
     }
 
@@ -161,12 +163,12 @@ const initializePeopleSection = (data) => {
         player.name + " has never lost a game";
     } else {
       peopleMostMoneyLostSingleMainElement.textContent = parseCurrency.format(
-        -player.stats["most-lost-in-single-game"].total
+        -player.stats["most-lost-in-single-game"].total,
       );
       peopleMostMoneyLostSingleSubElement.textContent =
         "on " +
         data.games.find(
-          (x) => x.id === player.stats["most-lost-in-single-game"]["game-id"]
+          (x) => x.id === player.stats["most-lost-in-single-game"]["game-id"],
         ).date;
     }
 
@@ -198,7 +200,7 @@ const initializePeopleSection = (data) => {
         "</em>" +
         "</div>" +
         `<span style="font-size: 16px"<>${parseCurrency.format(
-          matchup.cumSum
+          matchup.cumSum,
         )}</span>`;
 
       peopleMatchupsDivElement.appendChild(div);
@@ -208,7 +210,7 @@ const initializePeopleSection = (data) => {
   // Add mouseover listeners to people legend avatars
   for (const player of data.players) {
     const legendElement = document.getElementById(
-      "people-icon-div-" + player.name.replaceAll(" ", "_")
+      "people-icon-div-" + player.name.replaceAll(" ", "_"),
     );
 
     legendElement.addEventListener("mouseover", () => adjustPeopleBody(player));
@@ -217,7 +219,7 @@ const initializePeopleSection = (data) => {
   // Randomly select one of the players to activate in the people
   // section
   let filteredPlayers = data.players.filter(
-    (player) => player.gameCount >= minGames
+    (player) => player.gameCount >= minGames,
   );
 
   if (filteredPlayers.length === 0) {
