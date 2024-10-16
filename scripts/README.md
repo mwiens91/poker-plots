@@ -37,5 +37,5 @@ explicitly included with the project (`package.json` and
 following at the root of the project:
 
 ```
-npm install hex-rgb html-minifier iwanthue minify pug rollup
+npm install hex-rgb html-minifier iwanthue pug rollup terser
 ```
