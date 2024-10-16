@@ -269,7 +269,7 @@ def process_raw_data() -> tuple[
             player_name = player_name_raw.lower().title()
 
             # Make sure player is valid; if not, raise an exception
-            if not player_name in valid_player_names:
+            if player_name not in valid_player_names:
                 raise RuntimeError(
                     f'Invalid player name "{player_name_raw}" encounted in {filename}.'
                 )
@@ -381,7 +381,7 @@ def process_player_matchup_data(
             delta = player_data["delta"]
 
             # Add player to matchups dict if necessary
-            if not player_name in player_matchups_dict:
+            if player_name not in player_matchups_dict:
                 player_matchups_dict[player_name] = {}
 
             # Add the data to the player matchups dict
