@@ -94,7 +94,6 @@ import json
 from operator import itemgetter
 import os
 import sys
-from typing import Union
 
 DATA_DIR = "../data"
 RAW_DATA_DIR = DATA_DIR + "/raw"
@@ -145,8 +144,8 @@ PLAYER_COLOURS_RGB = {
 
 
 def process_raw_data() -> tuple[
-    list[dict[str, Union[str, int, list[dict[str, Union[str, float]]]]]],
-    dict[str, list[dict[str, Union[str, int, float]]]],
+    list[dict[str, str | int | list[dict[str, str | float]]]],
+    dict[str, list[dict[str, str | int | float]]],
 ]:
     """Processes raw game data files.
 
@@ -322,10 +321,8 @@ def process_raw_data() -> tuple[
 
 
 def process_player_matchup_data(
-    games_data_list: list[
-        dict[str, Union[str, int, list[dict[str, Union[str, float]]]]]
-    ],
-) -> dict[str, list[dict[str, Union[str, int, float, list[str], list[int]]]]]:
+    games_data_list: list[dict[str, str | int | list[dict[str, str | float]]]],
+) -> dict[str, list[dict[str, str | int | float | list[str] | list[int]]]]:
     """Processes stats for each player.
 
     Args:
@@ -430,8 +427,8 @@ def process_player_matchup_data(
 
 
 def process_player_stats(
-    player_data_dict: dict[str, list[dict[str, Union[str, int, float]]]],
-) -> dict[str, dict[str, Union[float, dict[str, Union[int, float]]]]]:
+    player_data_dict: dict[str, list[dict[str, str | int | float]]],
+) -> dict[str, dict[str, float | dict[str, int | float]]]:
     """Processes stats for each player.
 
     Args:
