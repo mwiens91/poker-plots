@@ -178,15 +178,15 @@ const drawLinePlot = (data, divId, margin) => {
   const maxDate = d3.max(allDates);
   const maxGameId = d3.max(data.games.map((game) => game.id));
 
-  const maxDaysToShow = 14;
-  const maxGamesToShow = 10;
+  const minDaysToShow = 14;
+  const minGamesToShow = 10;
 
   const maxZoomTimeSeries = Math.max(
     1,
     (maxDate.getTime() - minDate.getTime()) /
-      (maxDaysToShow * 1000 * 3600 * 24),
+      (minDaysToShow * 1000 * 3600 * 24),
   );
-  const maxZoomSerialized = Math.max(1, (maxGameId - 1) / maxGamesToShow);
+  const maxZoomSerialized = Math.max(1, (maxGameId - 1) / minGamesToShow);
 
   // x-scale - start slightly before the first data point. To make sure
   // the scaling of the minimum data point is the same across both time
