@@ -171,6 +171,9 @@ const drawLinePlot = (data, divId, margin) => {
   const minZoomTimeSeries = 0.7;
   const minZoomSerialized = 0.7;
 
+  // Number of milliseconds in a day
+  const numMsInDay = 8.64e7;
+
   // For time series, we want the max zoom to show a given number of
   // dates; similarly, for serialized, we want the max zoom to show a
   // given number of games
@@ -183,10 +186,19 @@ const drawLinePlot = (data, divId, margin) => {
 
   const maxZoomTimeSeries = Math.max(
     1,
-    (maxDate.getTime() - minDate.getTime()) /
-      (minDaysToShow * 1000 * 3600 * 24),
+    (maxDate.getTime() - minDate.getTime()) / (minDaysToShow * numMsInDay),
   );
   const maxZoomSerialized = Math.max(1, (maxGameId - 1) / minGamesToShow);
+
+  // Min/max translation. Idea here is to not let the data points get
+  // unreachably far away.
+  const dateRangeTime = maxDate.getTime() - minDate.getTime();
+  const minTranslationDate = new Date(minDate.getTime() - dateRangeTime);
+  const maxTranslationDate = new Date(maxDate.getTime() + dateRangeTime);
+
+  const gameRange = maxGameId - 1;
+  const minTranslationGame = 1 - gameRange;
+  const maxTranslationGame = maxGameId + gameRange;
 
   // x-scale - start slightly before the first data point. To make sure
   // the scaling of the minimum data point is the same across both time
@@ -318,14 +330,32 @@ const drawLinePlot = (data, divId, margin) => {
     drawArea.selectAll("path").attr("d", (d) => line(d.data));
   };
 
-  const zoom = d3
-    .zoom()
-    .scaleExtent(
-      useTimeSeries
-        ? [minZoomTimeSeries, maxZoomTimeSeries]
-        : [minZoomSerialized, maxZoomSerialized],
-    )
-    .on("zoom", zoomed);
+  const zoom = d3.zoom().on("zoom", zoomed);
+
+  // Define function to set up zoom scale and translation limits. We'll
+  // reuse this when transitioning the x-axis.
+  const setZoomExtents = () => {
+    zoom
+      .scaleExtent(
+        useTimeSeries
+          ? [minZoomTimeSeries, maxZoomTimeSeries]
+          : [minZoomSerialized, maxZoomSerialized],
+      )
+      .translateExtent(
+        useTimeSeries
+          ? [
+              [xScale(minTranslationDate), -Infinity],
+              [xScale(maxTranslationDate), Infinity],
+            ]
+          : [
+              [xScale(minTranslationGame), -Infinity],
+              [xScale(maxTranslationGame), Infinity],
+            ],
+      );
+  };
+
+  // Setup the zoom extents
+  setZoomExtents();
 
   const transitionXAxis = () => {
     // Change from time series to serializes (or vise versa)
@@ -334,10 +364,8 @@ const drawLinePlot = (data, divId, margin) => {
     // Scale
     [xScale, xScaleCopy] = getXScales();
 
-    // Zoom scale
-    useTimeSeries
-      ? zoom.scaleExtent([minZoomTimeSeries, maxZoomTimeSeries])
-      : zoom.scaleExtent([minZoomSerialized, maxZoomSerialized]);
+    // Zoom extents
+    setZoomExtents();
 
     // Axis
     xAxis.scale(xScale);
