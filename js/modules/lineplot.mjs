@@ -201,10 +201,16 @@ const drawLinePlot = (data, divId, margin) => {
     (1 - lowerDateScaleFactor);
   const lowerDate = new Date(minDate.getTime() - lowerDateTimeDelta);
 
-  let xScale = (useTimeSeries ? d3.scaleUtc : d3.scaleLinear)()
-    .domain(useTimeSeries ? [lowerDate, maxDate] : [lowerGameId, maxGameId])
-    .range([margin.left, width - margin.right - xAxisOffset]);
-  let xScaleCopy = xScale.copy();
+  // Function to setup xScale and xScaleCopy. We'll be
+  // reusing this later when we need to transition the x-axis
+  const getXScales = () => {
+    const xScale = (useTimeSeries ? d3.scaleUtc : d3.scaleLinear)()
+      .domain(useTimeSeries ? [lowerDate, maxDate] : [lowerGameId, maxGameId])
+      .range([margin.left, width - margin.right - xAxisOffset]);
+    return [xScale, xScale.copy()];
+  };
+
+  let [xScale, xScaleCopy] = getXScales();
 
   // Read optional query parameter for y-scaling exponent.
   // Method obtained here https://stackoverflow.com/a/901144 (no author)
@@ -326,10 +332,7 @@ const drawLinePlot = (data, divId, margin) => {
     useTimeSeries = useTimeSeries ? false : true;
 
     // Scale
-    xScale = (useTimeSeries ? d3.scaleUtc : d3.scaleLinear)()
-      .domain(useTimeSeries ? [lowerDate, maxDate] : [0.9, maxGameId])
-      .range([margin.left, width - margin.right - xAxisOffset]);
-    xScaleCopy = xScale.copy();
+    [xScale, xScaleCopy] = getXScales();
 
     // Zoom scale
     useTimeSeries
