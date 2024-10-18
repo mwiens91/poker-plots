@@ -199,8 +199,7 @@ const drawLinePlot = (data, divId, margin) => {
   const lowerDateTimeDelta =
     ((maxDate.getTime() - minDate.getTime()) * lowerDateScaleFactor) /
     (1 - lowerDateScaleFactor);
-  const lowerDate = new Date(Number(minDate));
-  lowerDate.setTime(minDate.getTime() - lowerDateTimeDelta);
+  const lowerDate = new Date(minDate.getTime() - lowerDateTimeDelta);
 
   let xScale = (useTimeSeries ? d3.scaleUtc : d3.scaleLinear)()
     .domain(useTimeSeries ? [lowerDate, maxDate] : [lowerGameId, maxGameId])
